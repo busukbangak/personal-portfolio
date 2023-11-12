@@ -4,7 +4,7 @@ import bannerImage from '@/assets/cat-baguette/banner.png'
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 
-export default function App() {
+export default function CatBaguette() {
   const { width, height } = useWindowDimensions();
   const isMobile = width < 1024;
 
