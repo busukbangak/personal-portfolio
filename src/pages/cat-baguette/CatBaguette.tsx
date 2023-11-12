@@ -5,17 +5,16 @@ import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 
 export default function CatBaguette() {
-  const { width, height } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   const isMobile = width <= 1024;
 
   return (
     <div className='container' style={{ ...styles.container, ...(isMobile && { flexDirection: 'column' }) }}>
-      <img style={styles.image} src={previewImage} alt='preview image' />
+      <img style={{ ...styles.image, ...(isMobile && { width: 'auto' }) }} src={previewImage} alt='preview image' />
       <div style={styles.descriptionContainer}>
         <h1 style={{ ...styles.title, ...(isMobile && { fontSize: 64 }) }}>cat baguette</h1>
         <p style={{ ...styles.description, ...(isMobile && { fontSize: 32 }) }}>Embark on a purrfectly delightful adventure in Cat Baguette! Aim your baguette and skillfully throw it to feed the hungry cat. Hit your target, score points, and collect coins to unlock a variety of tasty treats in our fantastic food shop! Will you become the next ultimate cat feeder?</p>
         <img style={{ ...styles.googlePlayBadge, ...(isMobile && { width: 150 }) }} src={googlePlayBadgeImage} onClick={() => window.open('https://play.google.com/store/apps/details?id=org.awanali.catbaguette&pcampaignid=web_share', '_blank')} />
-
       </div>
       <img style={{ ...styles.banner, ...(isMobile && { width: 150 }) }} src={bannerImage} />
     </div>
@@ -32,34 +31,34 @@ const styles = StyleSheet.create({
     padding: 16
   },
   image: {
-    flex: 1,
     objectFit: 'contain',
-    margin: 16
+    margin: 32,
+    width: '55%'
   },
   descriptionContainer: {
-    flex: 1,
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
     margin: 16
   },
   title: {
-    fontSize: '128px',
+    fontSize: '100px',
     fontFamily: 'm3x6',
     paddingLeft: 2,
     margin: 0,
     color: 'black'
   },
   description: {
-    fontSize: '64px',
+    fontSize: '50px',
     fontFamily: 'm3x6',
     paddingLeft: 2,
     color: 'black',
+    margin: '16px 0 16px 0'
   },
   googlePlayBadge: {
     margin: 0,
     padding: 0,
-    width: 250,
+    width: 200,
     cursor: 'pointer'
   },
   banner: {
