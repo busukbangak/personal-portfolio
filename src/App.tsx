@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import CatBaguette from '@/pages/cat-baguette/CatBaguette';
+import Portfolio from './pages/portfolio/Portfolio';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
 
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* Portfolio */}
-          <Route path='/' element={<h1>hallo</h1>} />
+          <Route path='/' Component={Portfolio} />
 
           {/* Cat Baguette */}
           <Route path="/catbaguette" Component={CatBaguette} />
