@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
-import HomePortfolio from './pages/portfolio/Home';
+import HomePortfolio from '@/pages/portfolio/Home';
+import HomeImprint from '@/pages/portfolio/Imprint';
+import HomePrivacyPolicy from '@/pages/portfolio/PrivacyPolicy';
 
 import HomeCatBaguette from '@/pages/cat-baguette/Home';
 import ImprintCatBaguette from '@/pages/cat-baguette/Imprint';
@@ -18,6 +20,8 @@ function App() {
         <Routes>
           {/* Portfolio */}
           <Route path='/' Component={HomePortfolio} />
+          <Route path='/imprint' Component={HomeImprint} />
+          <Route path='/privacy-policy' Component={HomePrivacyPolicy} />
 
           {/* Cat Baguette */}
           <Route path="/catbaguette" Component={HomeCatBaguette} />
