@@ -1,7 +1,7 @@
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 
-export default function Portfolio() {
+export default function Home() {
     const { width, height } = useWindowDimensions();
     const isMobile = width < 1024;
 
@@ -24,13 +24,13 @@ const styles = StyleSheet.create({
     },
     sidebar: {
         display: 'flex',
-        flex: 1,
         backgroundColor: 'blue',
+        width: 50
     },
     about: {
         display: 'flex',
-        flex: 1,
-        backgroundColor: 'red'
+        backgroundColor: 'red',
+        width: 750
     },
     projectList: {
         display: 'flex',
