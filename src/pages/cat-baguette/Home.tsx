@@ -21,7 +21,7 @@ export default function Home() {
       </main>
       <footer style={styles.footer}>
         <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
-        <Link to={'/catbaguette/imprint'} style={styles.footerText}>Privacy Policy</Link>
+        <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
       </footer>
 
       <img style={{ ...styles.banner, ...(isMobile && { width: 150 }) }} src={bannerImage} />

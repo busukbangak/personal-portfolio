@@ -6,6 +6,8 @@ import HomePortfolio from './pages/portfolio/Home';
 
 import HomeCatBaguette from '@/pages/cat-baguette/Home';
 import ImprintCatBaguette from '@/pages/cat-baguette/Imprint';
+import PrivacyPolicyCatBaguette from '@/pages/cat-baguette/PrivacyPolicy';
+
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
 
@@ -20,7 +22,7 @@ function App() {
           {/* Cat Baguette */}
           <Route path="/catbaguette" Component={HomeCatBaguette} />
           <Route path="/catbaguette/imprint" Component={ImprintCatBaguette} />
-          <Route path="/catbaguette/privacy-policy" Component={ImprintCatBaguette} />
+          <Route path="/catbaguette/privacy-policy" Component={PrivacyPolicyCatBaguette} />
           <Route path='/catbaguette/*' element={<Navigate to='/catbaguette' />} />
 
           {/* Misc */}
