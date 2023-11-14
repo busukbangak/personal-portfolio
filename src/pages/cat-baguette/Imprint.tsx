@@ -18,8 +18,9 @@ export default function Imprint() {
                 </p>
             </main>
             <footer style={styles.footer}>
-                <Link to={'/catbaguette'} style={styles.footerText}>Home</Link>
-                <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
+            <Link to={'/catbaguette'} style={styles.footerText}>Home</Link>
+        <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
+        <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
             </footer>
 
         </div>
