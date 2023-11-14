@@ -58,7 +58,8 @@ const styles = StyleSheet.create({
         writingMode: 'vertical-lr',
         textOrientation: 'sideways',
         textDecoration: 'none',
-        margin: 32
+        margin: 32,
+        cursor: 'pointer'
     },
     content: {
         flex: 1,

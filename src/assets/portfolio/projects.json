@@ -1,0 +1,22 @@
+[
+    {
+        "title": "cat baguette",
+        "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat",
+        "tags": [
+            "GODOT",
+            "C#"
+        ],
+        "imagePath": "./portfolio/preview0.png",
+        "link": "http://localhost:5173/catbaguette"
+    },
+    {
+        "title": "2D-platformer",
+        "subtitle": "hier hinweistext",
+        "tags": [
+            "C++",
+            "C"
+        ],
+        "imagePath": "./portfolio/preview.png",
+        "link": "google.com"
+    }
+]
