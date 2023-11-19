@@ -2,9 +2,6 @@ import StyleSheet from '@/shared/types/stylesheet';
 import TagListItem from './TagListItem';
 import targetPurpleSVG from '@/assets/portfolio/target-purple.png'
 import { useState } from 'react';
-import useModerateScale from '@/shared/hooks/useModerateScale';
-import useVerticalScale from '@/shared/hooks/useModerateScale';
-import useHorizontalScale from '@/shared/hooks/useHorizontalScale';
 
 type Props = {
     title: string;
@@ -20,15 +17,15 @@ export default function ProjectListItem({ title, subtitle, tags, imagePath, link
 
     return (
         <div className='container' style={styles.container}>
-            <h1 style={{ ...styles.title, fontSize: useModerateScale(64) }}>{title}</h1>
-            <h2 style={{ ...styles.subtitle, fontSize: useModerateScale(24) }}>{subtitle}</h2>
+            <h1 style={styles.title}>{title}</h1>
+            <h2 style={styles.subtitle}>{subtitle}</h2>
             <div style={styles.tagListContainer}>
                 {tags.map((tag, index) => <TagListItem key={index} text={tag} />)}
             </div>
             <a href={link} target='_blank' style={{ cursor: 'pointer' }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                <div style={{ ...styles.image, marginTop: useVerticalScale(8), backgroundImage: isHovered ? `url(${imagePath})` : `linear-gradient(rgba(196, 196, 196, 0) 0%, rgba(180, 181, 182, 0.067) 0.01%, rgb(0, 0, 0, 0.75) 99.99%, rgb(16, 28, 34, 0.75) 100%), url(${imagePath})` }} />
+                <div style={{ ...styles.image, backgroundImage: isHovered ? `url(${imagePath})` : `linear-gradient(rgba(196, 196, 196, 0) 0%, rgba(180, 181, 182, 0.067) 0.01%, rgb(0, 0, 0, 0.75) 99.99%, rgb(16, 28, 34, 0.75) 100%), url(${imagePath})` }} />
             </a>
-            <p style={{ ...styles.projectNumber, minWidth: useHorizontalScale(200), fontSize: useModerateScale(128), padding: useModerateScale(16), bottom: useVerticalScale(16), right: useVerticalScale(16) }}>{`0${index}`}</p>
+            <p style={styles.projectNumber}>{`0${index}`}</p>
         </div >
     )
 }
@@ -42,11 +39,13 @@ const styles = StyleSheet.create({
     },
     title: {
         margin: 0,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        fontSize: '3.333333333333333vw'
     },
     subtitle: {
         margin: 0,
-        fontWeight: 'normal'
+        fontWeight: 'normal',
+        fontSize: '1.25vw'
     },
     tagListContainer: {
         display: 'flex'
@@ -55,8 +54,8 @@ const styles = StyleSheet.create({
         width: '100%',
         aspectRatio: 16 / 9,
         backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover'
-
+        backgroundSize: 'cover',
+        marginTop: '0.7407407407407407vh'
     },
     projectNumber: {
         position: 'absolute',
@@ -66,7 +65,12 @@ const styles = StyleSheet.create({
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        textAlign: 'center'
+        textAlign: 'center',
+        minWidth: '10.41666666666667vw',
+        fontSize: '6.666666666666667vw',
+        padding: '0.8333333333333333vw',
+        bottom: '1.481481481481481vh',
+        right: '0.8333333333333333vw'
     }
 });
 
