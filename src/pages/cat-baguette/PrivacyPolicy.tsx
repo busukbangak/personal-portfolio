@@ -26,7 +26,6 @@ export default function PrivacyPolicy() {
                 <p style={{ ...styles.description, ...(isMobile && { fontSize: 32 }) }}>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at aliim.wanali@gmail.com.</p>
             </main>
             <footer style={styles.footer}>
-                <Link to={'/catbaguette'} style={styles.footerText}>Home</Link>
                 <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
                 <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
             </footer>
