@@ -1,3 +1,4 @@
+import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 
 type Props = {
@@ -5,8 +6,10 @@ type Props = {
 }
 
 export default function TagListItem({ text }: Props) {
+    const { width } = useWindowDimensions();
+    const isMobile = width < 1024;
 
-    return (<p style={styles.tag}>{text}</p>)
+    return (<p style={{ ...styles.tag, ...(isMobile && { padding: 4, width: 75, marginRight: 8, fontSize: '1.28755364806867vh' }) }}>{text}</p>)
 }
 
 const styles = StyleSheet.create({
