@@ -20,15 +20,15 @@ export default function ProjectListItem({ title, subtitle, tags, imagePath, link
 
     return (
         <div className='container' style={{ ...styles.container, ...(isMobile && { padding: 24 }) }}>
-            <h1 style={{...styles.title, fontSize: '3.862660944206009vh'}}>{title}</h1>
-            <h2 style={{...styles.subtitle, fontSize: '1.931330472103004vh'}}>{subtitle}</h2>
+            <h1 style={{ ...styles.title, ...(isMobile && { fontSize: '3.862660944206009vh' }) }}>{title}</h1>
+            <h2 style={{ ...styles.subtitle, ...(isMobile && { fontSize: '1.931330472103004vh' }) }}>{subtitle}</h2>
             <div style={styles.tagListContainer}>
                 {tags.map((tag, index) => <TagListItem key={index} text={tag} />)}
             </div>
             <a href={link} target='_blank' style={{ cursor: 'pointer' }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                 <div style={{ ...styles.image, backgroundImage: isHovered ? `url(${imagePath})` : `linear-gradient(rgba(196, 196, 196, 0) 0%, rgba(180, 181, 182, 0.067) 0.01%, rgb(0, 0, 0, 0.75) 99.99%, rgb(16, 28, 34, 0.75) 100%), url(${imagePath})` }} />
             </a>
-            <p style={{...styles.projectNumber, padding: 8, fontSize: '4.506437768240343vh', right: 8, bottom: 8}}>{`0${index}`}</p>
+            <p style={{ ...styles.projectNumber, ...(isMobile && { padding: 8, fontSize: '4.506437768240343vh', right: 8, bottom: 8 }) }}>{`0${index}`}</p>
         </div >
     )
 }
