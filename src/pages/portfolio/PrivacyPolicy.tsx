@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
 
             <section style={{ ...styles.content, ...(isMobile && { backgroundColor: '#161F22', padding: 24 }) }}>
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <h1 style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 500, color: 'white', margin: 0 }}>/awanali</h1>
+                    <Link to={'/'} style={{ textDecoration: 'none', cursor: 'pointer' }}><h1 style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 500, color: 'white', margin: 0 }}>/awanali</h1></Link>
                     {isMobile && <img style={{ ...styles.sidebarImage, width: '2.145922746781116vh' }} src={targetSVG} />}
                 </div>
                 <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>Privacy Policy</h2>
