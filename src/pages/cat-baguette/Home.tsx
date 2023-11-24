@@ -4,28 +4,33 @@ import bannerImage from '@/assets/cat-baguette/banner.png'
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 import { Link } from 'react-router-dom';
+import SEO from '@/shared/components/SEO';
 
 export default function Home() {
   const { width } = useWindowDimensions();
   const isMobile = width <= 1024;
 
   return (
-    <div className='container' style={styles.container}>
-      <main style={{ ...styles.main, ...(isMobile && { flexDirection: 'column' }) }}>
-        <img style={{ ...styles.image, ...(isMobile && { width: 'auto' }) }} src={previewImage} alt='preview image' />
-        <div style={styles.descriptionContainer}>
-          <h1 style={{ ...styles.title, ...(isMobile && { fontSize: 64 }) }}>cat baguette</h1>
-          <p style={{ ...styles.description, ...(isMobile && { fontSize: 32 }) }}>Embark on a purrfectly delightful adventure in Cat Baguette! Aim your baguette and skillfully throw it to feed the hungry cat. Hit your target, score points, and collect coins to unlock a variety of tasty treats in our fantastic food shop! Will you become the next ultimate cat feeder?</p>
-          <img style={{ ...styles.googlePlayBadge, ...(isMobile && { width: 150 }) }} src={googlePlayBadgeImage} onClick={() => window.open('https://play.google.com/store/apps/details?id=org.awanali.catbaguette&pcampaignid=web_share', '_blank')} />
-        </div>
-      </main>
-      <footer style={styles.footer}>
-        <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
-        <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
-      </footer>
+    <>
+      <SEO title='cat baguette' description='Feed an insatiable cat in this delightful arcade game, where precision meets fun' iconPath='/cat-baguette/icon.png' previewPath='/cat-baguette/preview.png' />
+      <div className='container' style={styles.container}>
+        <main style={{ ...styles.main, ...(isMobile && { flexDirection: 'column' }) }}>
+          <img style={{ ...styles.image, ...(isMobile && { width: 'auto' }) }} src={previewImage} alt='preview image' />
+          <div style={styles.descriptionContainer}>
+            <h1 style={{ ...styles.title, ...(isMobile && { fontSize: 64 }) }}>cat baguette</h1>
+            <p style={{ ...styles.description, ...(isMobile && { fontSize: 32 }) }}>Embark on a purrfectly delightful adventure in Cat Baguette! Aim your baguette and skillfully throw it to feed the hungry cat. Hit your target, score points, and collect coins to unlock a variety of tasty treats in our fantastic food shop! Will you become the next ultimate cat feeder?</p>
+            <img style={{ ...styles.googlePlayBadge, ...(isMobile && { width: 150 }) }} src={googlePlayBadgeImage} onClick={() => window.open('https://play.google.com/store/apps/details?id=org.awanali.catbaguette&pcampaignid=web_share', '_blank')} />
+          </div>
+        </main>
+        <footer style={styles.footer}>
+          <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
+          <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
+        </footer>
 
-      <img style={{ ...styles.banner, ...(isMobile && { width: 150 }) }} src={bannerImage} />
-    </div>
+        <img style={{ ...styles.banner, ...(isMobile && { width: 150 }) }} src={bannerImage} />
+      </div>
+    </>
+
   )
 }
 

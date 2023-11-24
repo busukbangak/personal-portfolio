@@ -1,3 +1,4 @@
+import SEO from '@/shared/components/SEO';
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 import { Link } from 'react-router-dom';
@@ -7,22 +8,26 @@ export default function Imprint() {
     const isMobile = width <= 1024;
 
     return (
-        <div className='container' style={styles.container}>
-            <main>
-                <h1 style={{ ...styles.title, ...(isMobile && { fontSize: 64 }) }}>Imprint</h1>
-                <p style={{ ...styles.description, ...(isMobile && { fontSize: 32 }) }}>
-                    Max Mustermann <br />
-                    Max Strasse 1337 <br />
-                    47395 Hamburg <br />
-                    max.mustermann@gmail.com
-                </p>
-            </main>
-            <footer style={styles.footer}>
-                <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
-                <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
-            </footer>
+        <>
+            <SEO title='cat baguette | Imprint' description='Feed an insatiable cat in this delightful arcade game, where precision meets fun' iconPath='/cat-baguette/icon.png' previewPath='/cat-baguette/preview.png' />
+            <div className='container' style={styles.container}>
+                <main>
+                    <h1 style={{ ...styles.title, ...(isMobile && { fontSize: 64 }) }}>Imprint</h1>
+                    <p style={{ ...styles.description, ...(isMobile && { fontSize: 32 }) }}>
+                        Max Mustermann <br />
+                        Max Strasse 1337 <br />
+                        47395 Hamburg <br />
+                        max.mustermann@gmail.com
+                    </p>
+                </main>
+                <footer style={styles.footer}>
+                    <Link to={'/catbaguette/imprint'} style={styles.footerText}>Imprint</Link>
+                    <Link to={'/catbaguette/privacy-policy'} style={styles.footerText}>Privacy Policy</Link>
+                </footer>
 
-        </div>
+            </div>
+        </>
+
     )
 }
 
