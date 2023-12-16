@@ -7,7 +7,7 @@
             "C#"
         ],
         "imagePath": "./portfolio/preview0.png",
-        "link": "http://localhost:5173/catbaguette"
+        "link": "/catbaguette"
     },
     {
         "title": "2D-platformer",
@@ -17,7 +17,7 @@
             "C"
         ],
         "imagePath": "./portfolio/preview.png",
-        "link": "google.com"
+        "link": "https://stackoverflow.com/questions/30202755/react-router-open-link-in-new-tab"
     },
     {
         "title": "cat baguette",

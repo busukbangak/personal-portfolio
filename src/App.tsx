@@ -32,7 +32,7 @@ function App() {
             <Route path='/catbaguette/*' element={<Navigate to='/catbaguette' />} />
 
             {/* Misc */}
-            <Route path='*' element={<Navigate to='/' />} />
+            <Route path='/*' element={<Navigate to='/' />} />
           </Routes>
         </BrowserRouter>
       </HelmetProvider>
