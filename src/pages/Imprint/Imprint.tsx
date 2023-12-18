@@ -1,10 +1,10 @@
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 
-import targetSVG from '@/assets/portfolio/target.svg'
+import targetSVG from '@/assets/target.svg'
 import { Link } from 'react-router-dom';
 
-export default function PrivacyPolicy() {
+export default function Imprint() {
     const { width } = useWindowDimensions();
     const isMobile = width < 1024;
 
@@ -27,8 +27,13 @@ export default function PrivacyPolicy() {
                     <Link to={'/'} style={{ textDecoration: 'none', cursor: 'pointer' }}><h1 style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 500, color: 'white', margin: 0 }}>/awanali</h1></Link>
                     {isMobile && <img style={{ ...styles.sidebarImage, width: '2.145922746781116vh' }} src={targetSVG} />}
                 </div>
-                <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>Privacy Policy</h2>
-                <p style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 'normal', color: 'white' }}>We dont collect any data on this website.</p>
+                <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>Imprint</h2>
+                <p style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 'normal', color: 'white' }}>
+                    Max Mustermann <br />
+                    Max Strasse 1337 <br />
+                    47395 Hamburg <br />
+                    max.mustermann@gmail.com
+                </p>
             </section>
 
             {isMobile &&

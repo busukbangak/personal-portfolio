@@ -1,13 +1,13 @@
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 import StyleSheet from '@/shared/types/stylesheet';
 
-import targetSVG from '@/assets/portfolio/target.svg'
+import targetSVG from '@/assets/target.svg'
 import { Link } from 'react-router-dom';
 
-import projectsJSON from '@/assets/portfolio/projects.json'
+import projectsJSON from '@/assets/projects.json'
 import ProjectListItem from './ProjectListItem';
 
-import buttonSVG from '@/assets/portfolio/button.svg'
+import buttonSVG from '@/assets/button.svg'
 import SEO from '@/shared/components/SEO';
 
 export default function Home() {

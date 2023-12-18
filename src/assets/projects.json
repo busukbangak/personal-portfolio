@@ -8,7 +8,7 @@
             "Mobile",
             "Arcade"
         ],
-        "imagePath": "./portfolio/catbaguette.preview.gif",
+        "imagePath": "./images/catbaguette.preview.gif",
         "link": "/catbaguette"
     },
     {
@@ -21,7 +21,7 @@
             "Prototype",
             "Adventure"
         ],
-        "imagePath": "./portfolio/2D-platformer.preview.gif",
+        "imagePath": "./images/2D-platformer.preview.gif",
         "link": "https://stackoverflow.com/questions/30202755/react-router-open-link-in-new-tab"
     },
     {
@@ -34,7 +34,7 @@
             "Research",
             "Simulation"
         ],
-        "imagePath": "./portfolio/ivr-hai.preview.gif",
+        "imagePath": "./images/ivr-hai.preview.gif",
         "link": "http://localhost:5173/catbaguette"
     },
     {
@@ -48,7 +48,7 @@
             "Action"
 
         ],
-        "imagePath": "./portfolio/ninetynine.preview.gif",
+        "imagePath": "./images/ninetynine.preview.gif",
         "link": "google.com"
     },
     {
@@ -61,7 +61,7 @@
             "Prototype",
             "MOBA"
         ],
-        "imagePath": "./portfolio/smol-academy.preview.gif",
+        "imagePath": "./images/smol-academy.preview.gif",
         "link": "google.com"
     }
 ]

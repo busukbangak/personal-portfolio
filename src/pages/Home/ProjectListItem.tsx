@@ -1,6 +1,6 @@
 import StyleSheet from '@/shared/types/stylesheet';
 import TagListItem from './TagListItem';
-import targetPurpleSVG from '@/assets/portfolio/target-purple.png'
+import targetPurpleSVG from '@/assets/target-purple.png'
 import { useState } from 'react';
 import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 
