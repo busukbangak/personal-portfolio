@@ -3,40 +3,65 @@
         "title": "cat baguette",
         "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat",
         "tags": [
-            "GODOT",
-            "C#"
+            "Godot",
+            "C#",
+            "Mobile",
+            "Arcade"
         ],
-        "imagePath": "./portfolio/preview0.png",
+        "imagePath": "./portfolio/catbaguette.preview.gif",
         "link": "/catbaguette"
     },
     {
         "title": "2D-platformer",
-        "subtitle": "hier hinweistext",
+        "subtitle": "A 2D Platformer controller, which can be used for any 2D Metroidvania type game",
         "tags": [
-            "C++",
-            "C"
+            "Godot",
+            "C#",
+            "Desktop",
+            "Prototype",
+            "Adventure"
         ],
-        "imagePath": "./portfolio/preview.png",
+        "imagePath": "./portfolio/2D-platformer.preview.gif",
         "link": "https://stackoverflow.com/questions/30202755/react-router-open-link-in-new-tab"
     },
     {
-        "title": "cat baguette",
-        "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat",
+        "title": "IVR-HAI: Fetch in Virtual Reality",
+        "subtitle": "Master Thesis: Social Presence in Immersive Virtual Reality Human-Animal Interaction",
         "tags": [
-            "GODOT",
-            "C#"
+            "Unity",
+            "C#",
+            "VR",
+            "Research",
+            "Simulation"
         ],
-        "imagePath": "./portfolio/preview0.png",
+        "imagePath": "./portfolio/ivr-hai.preview.gif",
         "link": "http://localhost:5173/catbaguette"
     },
     {
-        "title": "2D-platformer",
-        "subtitle": "hier hinweistext",
+        "title": "ninetynine",
+        "subtitle": "Overcome procedural generated islands with obstacles in 99 seconds",
         "tags": [
-            "C++",
-            "C"
+            "Godot",
+            "C#",
+            "Mobile",
+            "Prototype",
+            "Action"
+
         ],
-        "imagePath": "./portfolio/preview.png",
+        "imagePath": "./portfolio/ninetynine.preview.gif",
+        "link": "google.com"
+    },
+    {
+        "title": "SMOL ACADEMY",
+        "subtitle": "A fast paced 3D Action RPG MOBA game for the browser",
+        "tags": [
+            "Godot",
+            "C#",
+            "Web",
+            "Prototype",
+            "MOBA"
+        ],
+        "imagePath": "./portfolio/smol-academy.preview.gif",
         "link": "google.com"
     }
 ]
