@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 
-import HomePortfolio from '@/pages/Home/Home';
-import HomeImprint from '@/pages/Imprint/Imprint';
-import HomePrivacyPolicy from '@/pages/PrivacyPolicy/PrivacyPolicy';
+import Home from '@/pages/Home/Home';
+import Imprint from '@/pages/Imprint/Imprint';
+import PrivacyPolicy from '@/pages/PrivacyPolicy/PrivacyPolicy';
 import { HelmetProvider } from 'react-helmet-async';
 
 
@@ -17,9 +17,9 @@ function App() {
         <BrowserRouter>
           <Routes>
             {/* Portfolio */}
-            <Route path='/' Component={HomePortfolio} />
-            <Route path='/imprint' Component={HomeImprint} />
-            <Route path='/privacy-policy' Component={HomePrivacyPolicy} />
+            <Route path='/' Component={Home} />
+            <Route path='/imprint' Component={Imprint} />
+            <Route path='/privacy-policy' Component={PrivacyPolicy} />
 
             {/* Misc */}
             <Route path='/*' element={<Navigate to='/' />} />
