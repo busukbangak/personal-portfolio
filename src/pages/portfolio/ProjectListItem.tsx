@@ -26,7 +26,7 @@ export default function ProjectListItem({ title, subtitle, tags, imagePath, link
                 {tags.map((tag, index) => <TagListItem key={index} text={tag} />)}
             </div>
             <a href={link} target='_blank' rel='noopener noreferrer' style={{ cursor: 'pointer' }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                <div style={{ ...styles.image, backgroundImage: isHovered ? `url(${imagePath})` : `linear-gradient(rgba(196, 196, 196, 0) 0%, rgba(180, 181, 182, 0.067) 0.01%, rgb(0, 0, 0, 0.75) 99.99%, rgb(16, 28, 34, 0.75) 100%), url(${imagePath})` }} />
+                <div style={{ ...styles.image, backgroundImage: `url(${imagePath})`, ...(isHovered && { filter: 'brightness(1.25)' }) }} />
             </a>
 
             <p style={{ ...styles.projectNumber, ...(isMobile && { padding: 8, fontSize: '4.506437768240343vh', right: 8, bottom: 8 }) }}>{`0${index}`}</p>
@@ -52,7 +52,10 @@ const styles = StyleSheet.create({
         fontSize: '1.25vw'
     },
     tagListContainer: {
-        display: 'flex'
+        display: 'flex',
+        flexWrap: 'wrap',
+        marginTop: 8,
+        marginBottom: 8
     },
     image: {
         width: '100%',

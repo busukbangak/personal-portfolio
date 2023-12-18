@@ -9,7 +9,7 @@ export default function TagListItem({ text }: Props) {
     const { width } = useWindowDimensions();
     const isMobile = width < 1024;
 
-    return (<p style={{ ...styles.tag, ...(isMobile && { padding: 4, width: 75, marginRight: 8, fontSize: '1.28755364806867vh' }) }}>{text}</p>)
+    return (<p style={{ ...styles.tag, ...(isMobile && { padding: 4, marginRight: 8, fontSize: '1.28755364806867vh' }) }}>{text}</p>)
 }
 
 const styles = StyleSheet.create({
@@ -18,10 +18,12 @@ const styles = StyleSheet.create({
         color: '#161F22',
         textAlign: 'center',
         fontWeight: '600',
-        width: '6.510416666666667vw',
+        minWidth: '6.510416666666667vw',
         padding: '0.3125vw',
         marginRight: '0.8333333333333333vw',
-        fontSize: '0.9375vw'
+        fontSize: '0.9375vw',
+        marginTop: 4,
+        marginBottom: 4
     }
 });
 
