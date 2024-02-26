@@ -1,5 +1,5 @@
 {
-  "name": "cat-baguette-website",
+  "name": "awanali-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "cat-baguette-website": "file:cat-baguette-website-0.0.0.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-helmet-async": "^2.0.1",
