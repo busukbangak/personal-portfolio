@@ -1,17 +1,5 @@
 [
     {
-        "title": "cat baguette",
-        "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat",
-        "tags": [
-            "Godot",
-            "C#",
-            "Mobile",
-            "Arcade"
-        ],
-        "imagePath": "./images/catbaguette.preview.gif",
-        "link": "https://catbaguette.netlify.app/"
-    },
-    {
         "title": ".DORIFTO",
         "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat!",
         "tags": [
@@ -22,6 +10,18 @@
         ],
         "imagePath": "./images/dorifto.preview.gif",
         "link": "https://dorifto.netlify.app/"
+    },
+    {
+        "title": "cat baguette",
+        "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat",
+        "tags": [
+            "Godot",
+            "C#",
+            "Mobile",
+            "Arcade"
+        ],
+        "imagePath": "./images/catbaguette.preview.gif",
+        "link": "https://catbaguette.netlify.app/"
     },
     {
         "title": "2D-platformer",
@@ -58,7 +58,6 @@
             "Mobile",
             "Prototype",
             "Action"
-
         ],
         "imagePath": "./images/ninetynine.preview.gif",
         "link": "https://bitbucket.org/awanali"
