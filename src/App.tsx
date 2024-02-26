@@ -7,7 +7,6 @@ import Imprint from '@/pages/Imprint/Imprint';
 import PrivacyPolicy from '@/pages/PrivacyPolicy/PrivacyPolicy';
 import { HelmetProvider } from 'react-helmet-async';
 
-
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
 
 function App() {
@@ -28,4 +27,4 @@ function App() {
       </HelmetProvider>
     </React.StrictMode>
   )
-};
+}

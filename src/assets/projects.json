@@ -9,7 +9,19 @@
             "Arcade"
         ],
         "imagePath": "./images/catbaguette.preview.gif",
-        "link": "/catbaguette"
+        "link": "https://catbaguette.netlify.app/"
+    },
+    {
+        "title": ".DORIFTO",
+        "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat!",
+        "tags": [
+            "Godot",
+            "C#",
+            "Mobile",
+            "Arcade"
+        ],
+        "imagePath": "./images/dorifto.preview.gif",
+        "link": "https://dorifto.netlify.app/"
     },
     {
         "title": "2D-platformer",
@@ -22,7 +34,7 @@
             "Adventure"
         ],
         "imagePath": "./images/2D-platformer.preview.gif",
-        "link": "https://stackoverflow.com/questions/30202755/react-router-open-link-in-new-tab"
+        "link": "https://bitbucket.org/awanali/2d-platformer/src/master/"
     },
     {
         "title": "IVR-HAI: Fetch in Virtual Reality",
@@ -35,7 +47,7 @@
             "Simulation"
         ],
         "imagePath": "./images/ivr-hai.preview.gif",
-        "link": "http://localhost:5173/catbaguette"
+        "link": "https://bitbucket.org/awanali"
     },
     {
         "title": "ninetynine",
@@ -49,7 +61,7 @@
 
         ],
         "imagePath": "./images/ninetynine.preview.gif",
-        "link": "google.com"
+        "link": "https://bitbucket.org/awanali"
     },
     {
         "title": "SMOL ACADEMY",
@@ -62,6 +74,6 @@
             "MOBA"
         ],
         "imagePath": "./images/smol-academy.preview.gif",
-        "link": "google.com"
+        "link": "https://bitbucket.org/awanali"
     }
 ]

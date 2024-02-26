@@ -37,7 +37,7 @@ export default function Home() {
                         {isMobile && <img style={{ ...styles.sidebarImage, width: '2.145922746781116vh' }} src={targetSVG} />}
                     </div>
                     <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>I <span style={{ color: '#1CB0F7' }}>code</span> games, {!isMobile && <br />} <span style={{ color: '#EB5A53' }}>design</span> 2D/3D assets {!isMobile && <br />} and produce <span style={{ color: '#FF9600' }}>music</span>.</h2>
-                    <h3 style={{ fontSize: isMobile ? '2.575107296137339vh' : '1.66666vw', fontWeight: 'bold', color: 'white' }}>Hey I'm Wan Abdul Aliim Wanali.</h3>
+                    <h3 style={{ fontSize: isMobile ? '2.575107296137339vh' : '1.66666vw', fontWeight: 'bold', color: 'white' }}>Hey I'm Wan Abdul Aliim Wanali</h3>
                     <p style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 'normal', color: 'white' }}>I'm a software engineer looking for opportunities to gain experience in the industry. My interests range from building and designing human centered applications for web, desktop and mobile devices. Currently im working for the Lessing-Sts School in Hamburg, developing a gamification app for school kids.</p>
                     <div>
                         <a href={'mailto:aliim.wanali@gmail.com'}><img style={{ width: isMobile ? '27.46781115879828vh' : '15.3vw' }} src={buttonSVG} /></a>
