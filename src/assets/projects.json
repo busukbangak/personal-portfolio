@@ -1,5 +1,56 @@
 [
     {
+        "title": "When Stars Align",
+        "subtitle": "Story-driven 3D open world platformer.",
+        "tags": [
+            "Unity",
+            "C#",
+            "Desktop",
+            "Console",
+            "Prototype"
+        ],
+        "imagePath": "./images/wsa.preview.gif",
+        "link": "https://lessing.schule/lessingyard/"
+    },
+    {
+        "title": "Lessing Yard",
+        "subtitle": "Gamified learning platform for students and teachers",
+        "tags": [
+            "React Native",
+            "TypeScript",
+            "Mobile",
+            "Gamification"
+        ],
+        "imagePath": "./images/lessing.preview.gif",
+        "link": "https://lessing.schule/lessingyard/"
+    },
+    {
+        "title": "Capybaradise",
+        "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose.",
+        "tags": [
+            "Godot",
+            "C#",
+            "Desktop",
+            "Mobile",
+            "Arcade"
+        ],
+        "imagePath": "./images/capy.preview.gif",
+        "link": "https://capybaradise.netlify.app/"
+    },
+    {
+        "title": "When Stars Fall",
+        "subtitle": "Rhythm Game with custom built touch sensitive controller",
+        "tags": [
+            "Unity",
+            "C#",
+            "Desktop",
+            "Rhythm",
+            "Arcade"
+        ],
+        "imagePath": "./images/wsf.preview.gif",
+        "link": "https://bitbucket.org/awanali"
+    },
+    {
         "title": "DORIFTO",
         "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat!",
         "tags": [

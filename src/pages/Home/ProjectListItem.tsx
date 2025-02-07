@@ -29,7 +29,7 @@ export default function ProjectListItem({ title, subtitle, tags, imagePath, link
                 <div style={{ ...styles.image, backgroundImage: `url(${imagePath})`, ...(isHovered && { filter: 'brightness(1.25)' }) }} />
             </a>
 
-            <p style={{ ...styles.projectNumber, ...(isMobile && { padding: 8, fontSize: '4.506437768240343vh', right: 8, bottom: 8 }) }}>{`0${index}`}</p>
+            <p style={{ ...styles.projectNumber, ...(isMobile && { padding: 8, fontSize: '4.506437768240343vh', right: 8, bottom: 8 }) }}>{index > 9 ? index : `0${index}`}</p>
         </div >
     )
 }
