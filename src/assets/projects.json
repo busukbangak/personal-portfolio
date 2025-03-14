@@ -1,7 +1,7 @@
 [
     {
         "title": "When Stars Align",
-        "subtitle": "Story-driven 3D open world platformer.",
+        "subtitle": "Story-driven 3D open world platformer. Here setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
         "tags": [
             "Unity",
             "C#",
@@ -10,11 +10,11 @@
             "Prototype"
         ],
         "imagePath": "./images/wsa.preview.gif",
-        "link": "https://www.instagram.com/heartdrivengames"
+        "link": "https://heartdrivengames.com/games/when-stars-align"
     },
     {
         "title": "Lessing Yard",
-        "subtitle": "Gamified learning platform for students and teachers",
+        "subtitle": "Gamified learning platform for students and teachers. In this project, I set up the entire project and app structure on the frontend. I implemented the design and logic for the entire navigation flow (registered/unregistered), onboarding, avatar wardrobe, home screen, settings screen, badge system, ranking system, shop system, mini-games, QR code reader, map, as well as the integration of the backend, multiplayer (via Socket.io), localization, and state management (Redux).",
         "tags": [
             "React Native",
             "TypeScript",
@@ -26,7 +26,7 @@
     },
     {
         "title": "Capybaradise",
-        "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose.",
+        "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
         "tags": [
             "Godot",
             "C#",
@@ -35,11 +35,11 @@
             "Arcade"
         ],
         "imagePath": "./images/capy.preview.gif",
-        "link": "https://capybaradise.netlify.app/"
+        "link": "https://heartdrivengames.com/games/capybaradise"
     },
     {
         "title": "When Stars Fall",
-        "subtitle": "Rhythm Game with custom built touch sensitive controller",
+        "subtitle": "Rhythm Game with custom built touch sensitive controller. Here i was responsible for the audio design and implementation, part of the gameflow (e.g. spawning planets, showing endscore) and UI, as well as bugfixing.",
         "tags": [
             "Unity",
             "C#",
@@ -48,11 +48,11 @@
             "Arcade"
         ],
         "imagePath": "./images/wsf.preview.gif",
-        "link": "https://www.instagram.com/heartdrivengames"
+        "link": "https://heartdrivengames.com/games/when-stars-fall"
     },
     {
         "title": "DORIFTO",
-        "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat!",
+        "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat! I developed the app by myself.",
         "tags": [
             "Godot",
             "C#",
@@ -64,7 +64,7 @@
     },
     {
         "title": "cat baguette",
-        "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat",
+        "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat. I developed the app by myself.",
         "tags": [
             "Godot",
             "C#",
@@ -76,7 +76,7 @@
     },
     {
         "title": "2D-platformer",
-        "subtitle": "A 2D Platformer controller, which can be used for any 2D Metroidvania type game",
+        "subtitle": "A 2D Platformer controller, which can be used for any 2D Metroidvania type game. I developed the prototype by myself.",
         "tags": [
             "Godot",
             "C#",
@@ -89,7 +89,7 @@
     },
     {
         "title": "IVR-HAI: Fetch in Virtual Reality",
-        "subtitle": "Master Thesis: Social Presence in Immersive Virtual Reality Human-Animal Interaction",
+        "subtitle": "Master Thesis: Social Presence in Immersive Virtual Reality Human-Animal Interaction. I developed the vr-app by myself.",
         "tags": [
             "Unity",
             "C#",
@@ -102,7 +102,7 @@
     },
     {
         "title": "ninetynine",
-        "subtitle": "Overcome procedural generated islands with obstacles in 99 seconds",
+        "subtitle": "Overcome procedural generated islands with obstacles in 99 seconds. I developed the prototype by myself.",
         "tags": [
             "Godot",
             "C#",
@@ -111,11 +111,11 @@
             "Action"
         ],
         "imagePath": "./images/ninetynine.preview.gif",
-        "link": "https://bitbucket.org/awanali"
+        "link": "https://bitbucket.org/awanali/ninetynine/src/main/"
     },
     {
         "title": "SMOL ACADEMY",
-        "subtitle": "A fast paced 3D Action RPG MOBA game for the browser",
+        "subtitle": "A fast paced 3D Action RPG MOBA game for the browser. I developed the prototype by myself.",
         "tags": [
             "Godot",
             "C#",
@@ -124,6 +124,6 @@
             "MOBA"
         ],
         "imagePath": "./images/smol-academy.preview.gif",
-        "link": "https://bitbucket.org/awanali"
+        "link": "https://bitbucket.org/awanali/smol-academy/src/master/"
     }
 ]

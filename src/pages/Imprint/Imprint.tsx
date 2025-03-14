@@ -30,7 +30,6 @@ export default function Imprint() {
                 <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>Imprint</h2>
                 <p style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 'normal', color: 'white' }}>
                     Wan Abdul Aliim Wanali <br />
-                    21075 Hamburg <br />
                     aliim.wanali@gmail.com
                 </p>
             </section>
