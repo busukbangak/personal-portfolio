@@ -29,10 +29,9 @@ export default function Imprint() {
                 </div>
                 <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>Imprint</h2>
                 <p style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 'normal', color: 'white' }}>
-                    Max Mustermann <br />
-                    Max Strasse 1337 <br />
-                    47395 Hamburg <br />
-                    max.mustermann@gmail.com
+                    Wan Abdul Aliim Wanali <br />
+                    21075 Hamburg <br />
+                    aliim.wanali@gmail.com
                 </p>
             </section>
 
