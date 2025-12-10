@@ -22,5 +22,5 @@ A modern, responsive portfolio website showcasing projects and skills.
 ## Development Notes
 - Layout based on my original design concept.
 - Visual direction explored and refined with ChatGPT.
-- Code implementation assisted by GitHub Copilot, with the agent introducing occasional structural variations.
+- Implementation of new visual direction assisted by GitHub Copilot, with the agent introducing occasional structural variations.
 - All outputs reviewed, adjusted, and fine-tuned to match my intended style and functionality.
