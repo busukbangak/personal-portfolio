@@ -12,6 +12,13 @@ A modern, responsive portfolio website showcasing projects and skills.
 - **Project Showcase**: Filterable projects
 - **SEO Ready**: React Helmet integration for meta tags and social previews
 
+## Tech Stack
+- React 18.2.0 with TypeScript
+- Tailwind CSS v4 for styling
+- Vite 7.2.7 for fast development and building
+- React Router DOM 6 for navigation
+- React Helmet Async for SEO
+
 ## Development Notes
 - Layout based on my original design concept.
 - Visual direction explored and refined with ChatGPT.
