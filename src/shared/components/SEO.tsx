@@ -17,7 +17,7 @@ export default function SEO({ title, description, iconPath, previewPath, url }: 
         "@type": "Person",
         "name": "Wan Abdul Aliim Wanali",
         "url": "https://busukbangak.dev",
-        "jobTitle": "HCI Developer",
+        "jobTitle": "HCI focused Developer",
         "description": "HCI-focused developer bridging technology and people",
         "alumniOf": [
             "HAW Hamburg",

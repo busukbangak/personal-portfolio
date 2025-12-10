@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <>
             <SEO 
-                title='Wan Abdul Aliim Wanali - HCI Developer & Designer' 
+                title='Wan Abdul Aliim Wanali - HCI focused Developer' 
                 description='HCI-focused developer bridging technology and people. Designing human-centered applications for web, desktop, and mobile. Currently studying at HAW Hamburg and developing When Stars Align.' 
                 iconPath='/images/favicon.svg' 
                 previewPath='/images/favicon.svg'
