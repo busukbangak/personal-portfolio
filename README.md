@@ -1,27 +1,19 @@
-# React + TypeScript + Vite
+# Personal Portfolio
+A modern, responsive portfolio website showcasing projects and skills.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<!-- <p align="center">
+	<img src="public/desktop.PNG" alt="Desktop screenshot" width="375"/>
+	<img src="public/mobile.PNG" alt="Mobile/Tablet screenshot" width="150"/>
+</p> -->
 
-Currently, two official plugins are available:
+## Features
+- **Responsive Layout**: Mobile-first design with smooth desktop two-column layout
+- **Sticky Navigation**: Left section stays fixed while content scrolls on desktop
+- **Project Showcase**: Filterable projects
+- **SEO Ready**: React Helmet integration for meta tags and social previews
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Development Notes
+- Layout based on my original design concept.
+- Visual direction explored and refined with ChatGPT.
+- Code implementation assisted by GitHub Copilot, with the agent introducing occasional structural variations.
+- All outputs reviewed, adjusted, and fine-tuned to match my intended style and functionality.
