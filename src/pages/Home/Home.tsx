@@ -34,9 +34,12 @@ export default function Home() {
                             </h2>
                         </div>
 
-                        <div className="pt-4">
+                        <div className="pt-4 flex gap-4">
                             <a href="mailto:aliim.wanali@gmail.com" className="inline-block bg-[#5B9FD7] hover:bg-[#4A8BC6] text-white font-semibold px-8 py-3 rounded-md transition-colors">
                                 Get in Touch
+                            </a>
+                            <a href="/cv_wanali.pdf" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#E85D75] hover:bg-[#D74C64] text-white font-semibold px-8 py-3 rounded-md transition-colors">
+                                View CV
                             </a>
                         </div>
                     </div>
