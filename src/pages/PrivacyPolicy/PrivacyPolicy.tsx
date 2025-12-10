@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import Footer from '../../shared/components/Footer';
 
 export default function PrivacyPolicy() {
     return (
@@ -6,7 +7,7 @@ export default function PrivacyPolicy() {
             <div className="flex-1 flex flex-col justify-between p-8 lg:p-12 xl:p-16">
                 <div className="flex-1 flex flex-col justify-center space-y-6 lg:space-y-8">
                     <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-[#E0E0E0]">Privacy Policy</h1>
-                    
+
                     <div className="space-y-4">
                         <p className="text-base lg:text-lg text-[#C0C0C0] leading-relaxed">
                             We don't collect any data on this website.
@@ -20,20 +21,14 @@ export default function PrivacyPolicy() {
                     </div>
                 </div>
 
-                {/* Bottom links - Desktop only */}
-                <div className="hidden lg:flex gap-6 text-sm text-white/50 mt-8">
-                    <Link to={'/'} className="hover:text-white/70 transition-colors">Home</Link>
-                    <Link to={'/imprint'} className="hover:text-white/70 transition-colors">Imprint</Link>
-                    <Link to={'/privacy-policy'} className="hover:text-white/70 transition-colors">Privacy Policy</Link>
+                <div className="hidden lg:block">
+                    <Footer />
                 </div>
             </div>
 
-            {/* Mobile footer links */}
-            <nav className="flex lg:hidden flex-row items-center justify-center gap-6 p-8 text-sm text-white/50">
-                <Link to={'/'} className="hover:text-white/70 transition-colors">Home</Link>
-                <Link to={'/imprint'} className="hover:text-white/70 transition-colors">Imprint</Link>
-                <Link to={'/privacy-policy'} className="hover:text-white/70 transition-colors">Privacy Policy</Link>
-            </nav>
+            <div className="lg:hidden">
+                <Footer isMobile={true} />
+            </div>
         </main>
     )
 }

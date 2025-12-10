@@ -1,11 +1,11 @@
-import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 import ProjectList from './ProjectList';
 import TagFilter from './TagFilter';
 
 import SEO from '@/shared/components/SEO';
+import Footer from '@/shared/components/Footer';
 import { Project } from '@/shared/types/types';
-import { useState } from 'react';
 
 
 export default function Home() {
@@ -44,11 +44,9 @@ export default function Home() {
                         </div>
                     </div>
 
-                    {/* Bottom links - Desktop only */}
-                    <div className="hidden lg:flex gap-6 text-sm text-white/50 mt-8">
-                        <Link to={'/'} className="hover:text-white/70 transition-colors">Home</Link>
-                        <Link to={'/imprint'} className="hover:text-white/70 transition-colors">Imprint</Link>
-                        <Link to={'/privacy-policy'} className="hover:text-white/70 transition-colors">Privacy Policy</Link>
+                    {/* Footer links - Desktop only */}
+                    <div className="hidden lg:block">
+                        <Footer />
                     </div>
                 </section>
 
@@ -63,11 +61,7 @@ export default function Home() {
                     <ProjectList projects={filteredProjects} />
 
                     {/* Mobile footer links */}
-                    <nav className="flex flex-row items-center justify-center gap-6 p-8 text-sm text-white/50">
-                        <Link to={'/'} className="hover:text-white/70 transition-colors">Home</Link>
-                        <Link to={'/imprint'} className="hover:text-white/70 transition-colors">Imprint</Link>
-                        <Link to={'/privacy-policy'} className="hover:text-white/70 transition-colors">Privacy Policy</Link>
-                    </nav>
+                    <Footer isMobile />
                 </div>
             </main>
         </>
