@@ -1,8 +1,6 @@
-import StyleSheet from '@/shared/types/stylesheet';
 import TagListItem from './TagListItem';
 import targetPurpleSVG from '@/assets/target-purple.png'
 import { useState } from 'react';
-import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
 
 type Props = {
     title: string;
@@ -15,69 +13,19 @@ type Props = {
 
 export default function ProjectListItem({ title, subtitle, tags, imagePath, link, index }: Props) {
     const [isHovered, setIsHovered] = useState(false);
-    const { width } = useWindowDimensions();
-    const isMobile = width < 1024;
 
     return (
-        <div className='container' style={{ ...styles.container, ...(isMobile && { padding: 24 }) }}>
-            <h1 style={{ ...styles.title, ...(isMobile && { fontSize: '3.862660944206009vh' }) }}>{title}</h1>
-            <h2 style={{ ...styles.subtitle, ...(isMobile && { fontSize: '1.931330472103004vh' }) }}>{subtitle}</h2>
-            <div style={styles.tagListContainer}>
+        <div className='relative flex-1 text-[#8A6AC7] p-6 lg:pt-0 lg:px-16 lg:pb-12'>
+            <h1 className="m-0 font-bold text-[3.862660944206009vh] lg:text-[3.333333333333333vw]">{title}</h1>
+            <h2 className='m-0 font-normal text-[1.931330472103004vh] lg:text-[1.25vw] '>{subtitle}</h2>
+            <div className='flex flex-wrap my-2'>
                 {tags.map((tag, index) => <TagListItem key={index} text={tag} />)}
             </div>
             <a href={link} target='_blank' rel='noopener noreferrer' style={{ cursor: 'pointer' }} onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                <div style={{ ...styles.image, backgroundImage: `url(${imagePath})`, ...(isHovered && { filter: 'brightness(1.25)' }) }} />
+                <div className={`w-full aspect-video bg-no-repeat bg-cover mt-[0.7407407407407407vh] ${isHovered ? 'brightness-125' : ''}`} style={{ backgroundImage: `url(${imagePath})` }} />
             </a>
 
-            <p style={{ ...styles.projectNumber, ...(isMobile && { padding: 8, fontSize: '4.506437768240343vh', right: 8, bottom: 8 }) }}>{index > 9 ? index : `0${index}`}</p>
+            <p className={`absolute text-white m-0 bg-contain bg-no-repeat bg-center text-center min-w-[10.41666666666667vw] text-[4.506437768240343vh] right-2 bottom-2 p-2 lg:text-[6.666666666666667vw] lg:p-[0.8333333333333333vw] lg:bottom-[1.481481481481481vh] lg:-right-[0.8333333333333333vw']`} style={{ backgroundImage: `url(${targetPurpleSVG})` }}>{index > 9 ? index : `0${index}`}</p>
         </div >
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        position: 'relative',
-        flex: 1,
-        color: '#8A6AC7',
-        padding: '0 64px 48px 64px'
-    },
-    title: {
-        margin: 0,
-        fontWeight: 'bold',
-        fontSize: '3.333333333333333vw'
-    },
-    subtitle: {
-        margin: 0,
-        fontWeight: 'normal',
-        fontSize: '1.25vw'
-    },
-    tagListContainer: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        marginTop: 8,
-        marginBottom: 8
-    },
-    image: {
-        width: '100%',
-        aspectRatio: 16 / 9,
-        backgroundRepeat: 'no-repeat',
-        backgroundSize: 'cover',
-        marginTop: '0.7407407407407407vh'
-    },
-    projectNumber: {
-        position: 'absolute',
-        color: 'white',
-        margin: 0,
-        backgroundImage: `url(${targetPurpleSVG})`,
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        textAlign: 'center',
-        minWidth: '10.41666666666667vw',
-        fontSize: '6.666666666666667vw',
-        padding: '0.8333333333333333vw',
-        bottom: '1.481481481481481vh',
-        right: '0.8333333333333333vw'
-    }
-});
-

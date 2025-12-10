@@ -9,7 +9,7 @@ import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(<App />);
 
-function App() {
+export default function App() {
   return (
     <React.StrictMode>
       <HelmetProvider>

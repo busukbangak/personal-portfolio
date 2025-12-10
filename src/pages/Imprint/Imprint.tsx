@@ -1,88 +1,38 @@
-import useWindowDimensions from '@/shared/hooks/useWindowDimensions';
-import StyleSheet from '@/shared/types/stylesheet';
-
 import targetSVG from '@/assets/target.svg'
 import { Link } from 'react-router-dom';
 
 export default function Imprint() {
-    const { width } = useWindowDimensions();
-    const isMobile = width < 1024;
+    const navLinkClasses = "[writing-mode:vertical-lr] [text-orientation:sideways] no-underline text-white cursor-pointer m-[1.66666vw] text-[0.8163265306122449vw]";
 
     return (
-        <main className='container' style={{ ...styles.container, ...(isMobile && { flexDirection: 'column' }) }}>
-            {!isMobile &&
-                <aside style={styles.sidebar}>
-                    <img style={styles.sidebarImage} src={targetSVG} />
-                    <nav style={styles.navContainer}>
-                        <Link to={'/'} style={styles.navText}>Home</Link>
-                        <Link to={'/imprint'} style={styles.navText}>Imprint</Link>
-                        <Link to={'/privacy-policy'} style={styles.navText}>Privacy Policy</Link>
-                    </nav>
-                </aside>
-            }
+        <main className="flex flex-col lg:flex-row flex-1 bg-[#161F22] overflow-auto font-[Montserrat]">
+            <aside className="hidden lg:flex flex-col justify-between w-[3.90625vw]">
+                <img className="w-[35%] self-center m-[1.66666vw]" src={targetSVG} />
+                <nav className="flex flex-col items-center">
+                    <Link to={'/'} className={navLinkClasses}>Home</Link>
+                    <Link to={'/imprint'} className={navLinkClasses}>Imprint</Link>
+                    <Link to={'/privacy-policy'} className={navLinkClasses}>Privacy Policy</Link>
+                </nav>
+            </aside>
 
-
-            <section style={{ ...styles.content, ...(isMobile && { backgroundColor: '#161F22', padding: 24 }) }}>
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <Link to={'/'} style={{ textDecoration: 'none', cursor: 'pointer' }}><h1 style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 500, color: 'white', margin: 0 }}>/awanali</h1></Link>
-                    {isMobile && <img style={{ ...styles.sidebarImage, width: '2.145922746781116vh' }} src={targetSVG} />}
+            <section className="flex flex-col flex-3 bg-[#161F22] p-6 lg:bg-[#232F35] lg:p-[1.66666vw]">
+                <div className="flex items-center justify-between">
+                    <Link to={'/'} className="no-underline cursor-pointer">
+                        <h1 className="font-medium text-white m-0 text-[2.145922746781116vh] lg:text-[1.224489795918367vw]">/awanali</h1>
+                    </Link>
+                    <img className="w-[2.145922746781116vh] self-center m-[1.66666vw] lg:hidden" src={targetSVG} />
                 </div>
-                <h2 style={{ fontSize: isMobile ? '4.506437768240343vh' : '3.33333vw', fontWeight: 500, color: '#BDC1C2' }}>Imprint</h2>
-                <p style={{ fontSize: isMobile ? '2.145922746781116vh' : '1.224489795918367vw', fontWeight: 'normal', color: 'white' }}>
+                <h2 className="font-medium text-[#BDC1C2] text-[4.506437768240343vh] lg:text-[3.33333vw]">Imprint</h2>
+                <p className="font-normal text-white text-[2.145922746781116vh] lg:text-[1.224489795918367vw]">
                     Wan Abdul Aliim Wanali <br />
                     aliim.wanali@gmail.com
                 </p>
             </section>
 
-            {isMobile &&
-                <nav style={{ ...styles.navContainer, flexDirection: 'row', justifyContent: 'center', margin: 32 }}>
-                    <Link to={'/imprint'} style={{ ...styles.navText, writingMode: 'unset', fontSize: '1.716738197424893vh' }}>Imprint</Link>
-                    <Link to={'/privacy-policy'} style={{ ...styles.navText, writingMode: 'unset', fontSize: '1.716738197424893vh' }}>Privacy Policy</Link>
-                </nav>
-            }
+            <nav className="flex lg:hidden flex-row items-center justify-center m-8">
+                <Link to={'/imprint'} className="no-underline text-white cursor-pointer m-[1.66666vw] text-[1.716738197424893vh]">Imprint</Link>
+                <Link to={'/privacy-policy'} className="no-underline text-white cursor-pointer m-[1.66666vw] text-[1.716738197424893vh]">Privacy Policy</Link>
+            </nav>
         </main>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        display: 'flex',
-        flex: 1,
-        backgroundColor: '#161F22',
-        flexDirection: 'row',
-        overflow: 'auto',
-        fontFamily: 'Montserrat'
-    },
-    sidebar: {
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'space-between',
-        width: '3.90625vw'
-    },
-    sidebarImage: {
-        width: '35%',
-        alignSelf: 'center',
-        margin: '1.66666vw'
-    },
-    navContainer: {
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center'
-    },
-    navText: {
-        writingMode: 'vertical-lr',
-        textOrientation: 'sideways',
-        textDecoration: 'none',
-        color: '#fff',
-        cursor: 'pointer',
-        margin: '1.66666vw',
-        fontSize: '0.8163265306122449vw'
-    },
-    content: {
-        display: 'flex',
-        flexDirection: 'column',
-        backgroundColor: '#232F35',
-        flex: 3,
-        padding: '1.66666vw'
-    },
-});
