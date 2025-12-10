@@ -1,52 +1,65 @@
-import targetSVG from '@/assets/target.svg'
 import { Link } from 'react-router-dom';
 
 import projectsJSON from '@/assets/projects.json'
 import ProjectListItem from './ProjectListItem';
 
-import buttonSVG from '@/assets/button.svg'
 import SEO from '@/shared/components/SEO';
 
 export default function Home() {
-    const navLinkClasses = "[writing-mode:vertical-lr] [text-orientation:sideways] no-underline text-white cursor-pointer m-[1.66666vw] text-[0.8163265306122449vw]";
 
     return (
         <>
             <SEO title='Wan Abdul Aliim Wanali' description='portfolio' iconPath='' previewPath='' />
 
-            <main className="flex flex-col lg:flex-row flex-1 bg-[#161F22] overflow-auto font-[Montserrat]">
-                <aside className="hidden lg:flex flex-col justify-between w-[3.90625vw]">
-                    <img className="w-[35%] self-center m-[1.66666vw]" src={targetSVG} />
-                    <nav className="flex flex-col items-center">
-                        <Link to={'/'} className={navLinkClasses}>Home</Link>
-                        <Link to={'/imprint'} className={navLinkClasses}>Imprint</Link>
-                        <Link to={'/privacy-policy'} className={navLinkClasses}>Privacy Policy</Link>
-                    </nav>
-                </aside>
+            <main className="flex flex-col lg:flex-row h-screen bg-[#0A0A0A] overflow-y-auto font-[Montserrat]">
+                {/* Left content section */}
+                <section className="flex flex-col justify-between lg:w-[50%] lg:h-screen lg:sticky lg:top-0 bg-[#0A0A0A] p-8 lg:p-12 xl:p-16">
 
-                <section className="flex flex-col flex-3 bg-[#161F22] p-6 lg:bg-[#232F35] lg:p-[1.66666vw]">
-                    <h2 className="text-[4.506437768240343vh] font-medium text-[#BDC1C2] lg:text-[3.13333vw]">
-                        I <span className="text-[#1CB0F7]">code</span> experiences, <br className="hidden lg:block" /> <span className="text-[#EB5A53]">design</span> visuals <br className="hidden lg:block" /> and produce <span className="text-[#FF9600]">audio</span>.
-                    </h2>
-                    <h3 className="text-[2.575107296137339vh] font-bold text-white lg:text-[1.66666vw]">Hey I'm Wan Abdul Aliim Wanali</h3>
-                    <p className="text-[2.145922746781116vh] font-normal text-white lg:text-[1.224489795918367vw]">I’m an HCI-focused developer who bridges the gap between technology and people. My interests span designing and building human-centered applications for web, desktop, and mobile platforms, as well as exploring scientific research within the field of human-computer interaction. I’m currently studying at HAW Hamburg and developing When Stars Align with the <a className='text-[#B9B9B9] no-underline cursor-pointer' href='https://www.instagram.com/heartdrivengames'> @heartdrivengames</a> team.</p>
-                    <div>
-                        <a href="mailto:aliim.wanali@gmail.com"><img className="w-[27.46781115879828vh] lg:w-[15.3vw]" src={buttonSVG} /></a>
+                    {/* Main content */}
+                    <div className="flex-1 flex flex-col justify-center space-y-6 lg:space-y-8">
+                        <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-[#E0E0E0]">
+                            I <span className="text-[#5B9FD7]">code</span> experiences,<br />
+                            <span className="text-[#E85D75]">design</span> visuals,<br />
+                            and produce <span className="text-[#E8A750]">audio</span>.
+                        </h1>
+
+                        <div className="space-y-4">
+                            <h1 className="text-xl lg:text-2xl font-bold text-[#F5F5F5]">Moin! I'm Wan Abdul Aliim Wanali</h1>
+                            <h2 className="text-base lg:text-lg text-[#C0C0C0] leading-relaxed max-w-2xl">
+                                I'm an HCI-focused developer who bridges the gap between technology and people. My interests span designing and building human-centered applications for web, desktop, and mobile platforms, as well as exploring scientific research within the field of human-computer interaction. I'm currently studying at HAW Hamburg and developing When Stars Align with the <a className="text-[#8A8A8A] no-underline cursor-pointer hover:text-[#B0B0B0]" href="https://www.instagram.com/heartdrivengames"> @heartdrivengames</a> team.
+                            </h2>
+                        </div>
+
+                        <div className="pt-4">
+                            <a href="mailto:aliim.wanali@gmail.com" className="inline-block bg-[#5B9FD7] hover:bg-[#4A8BC6] text-white font-semibold px-8 py-3 rounded-md transition-colors">
+                                Get in Touch
+                            </a>
+                        </div>
+                    </div>
+
+                    {/* Bottom links - Desktop only */}
+                    <div className="hidden lg:flex gap-6 text-sm text-white/50 mt-8">
+                        <Link to={'/'} className="hover:text-white/70 transition-colors">Home</Link>
+                        <Link to={'/imprint'} className="hover:text-white/70 transition-colors">Imprint</Link>
+                        <Link to={'/privacy-policy'} className="hover:text-white/70 transition-colors">Privacy Policy</Link>
                     </div>
                 </section>
 
-                <section className="hidden lg:flex flex-5 overflow-auto pt-[4.444444444444444vh] flex-col">
-                    {projectsJSON.map((item, index) => <ProjectListItem key={index} title={item.title} subtitle={item.subtitle} tags={item.tags} imagePath={item.imagePath} link={item.link} index={index + 1} />)}
+                {/* Right projects section */}
+                <section className="flex-1 bg-[#0A0A0A] lg:flex flex-col hidden">
+                    {projectsJSON.map((item, index) => <ProjectListItem key={index} title={item.title} subtitle={item.subtitle} tags={item.tags} imagePath={item.imagePath} link={item.link} />)}
                 </section>
 
                 <div className="lg:hidden">
-                    {projectsJSON.map((item, index) => <ProjectListItem key={index} title={item.title} subtitle={item.subtitle} tags={item.tags} imagePath={item.imagePath} link={item.link} index={index + 1} />)}
-                </div>
+                    {projectsJSON.map((item, index) => <ProjectListItem key={index} title={item.title} subtitle={item.subtitle} tags={item.tags} imagePath={item.imagePath} link={item.link} />)}
 
-                <nav className="flex lg:hidden flex-row items-center justify-center m-8">
-                    <Link to={'/imprint'} className="no-underline text-white cursor-pointer m-[1.66666vw] text-[1.716738197424893vh]">Imprint</Link>
-                    <Link to={'/privacy-policy'} className="no-underline text-white cursor-pointer m-[1.66666vw] text-[1.716738197424893vh]">Privacy Policy</Link>
-                </nav>
+                    {/* Mobile footer links */}
+                    <nav className="flex flex-row items-center justify-center gap-6 p-8 text-sm text-white/50">
+                        <Link to={'/'} className="hover:text-white/70 transition-colors">Home</Link>
+                        <Link to={'/imprint'} className="hover:text-white/70 transition-colors">Imprint</Link>
+                        <Link to={'/privacy-policy'} className="hover:text-white/70 transition-colors">Privacy Policy</Link>
+                    </nav>
+                </div>
             </main>
         </>
     )
