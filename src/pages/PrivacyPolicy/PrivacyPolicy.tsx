@@ -1,9 +1,18 @@
 import { Link } from 'react-router-dom';
 import Footer from '../../shared/components/Footer';
+import SEO from '@/shared/components/SEO';
 
 export default function PrivacyPolicy() {
     return (
-        <main className="flex flex-col min-h-screen bg-[#0A0A0A] font-[Montserrat]">
+        <>
+            <SEO 
+                title='Privacy Policy - Wan Abdul Aliim Wanali' 
+                description='Privacy policy for busukbangak.dev. We do not collect any personal data.' 
+                iconPath='/images/favicon.svg' 
+                previewPath='/images/favicon.svg'
+                url='https://busukbangak.dev/privacy-policy'
+            />
+            <main className="flex flex-col min-h-screen bg-[#0A0A0A] font-[Montserrat]">
             <div className="flex-1 flex flex-col justify-between p-8 lg:p-12 xl:p-16">
                 <div className="flex-1 flex flex-col justify-center space-y-6 lg:space-y-8">
                     <h1 className="text-4xl lg:text-5xl xl:text-6xl font-medium leading-tight text-[#E0E0E0]">Privacy Policy</h1>
@@ -30,5 +39,6 @@ export default function PrivacyPolicy() {
                 <Footer isMobile={true} />
             </div>
         </main>
+        </>
     )
 }

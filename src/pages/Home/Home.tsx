@@ -13,7 +13,13 @@ export default function Home() {
 
     return (
         <>
-            <SEO title='Wan Abdul Aliim Wanali' description='portfolio' iconPath='/images/favicon.svg' previewPath='' />
+            <SEO 
+                title='Wan Abdul Aliim Wanali - HCI Developer & Designer' 
+                description='HCI-focused developer bridging technology and people. Designing human-centered applications for web, desktop, and mobile. Currently studying at HAW Hamburg and developing When Stars Align.' 
+                iconPath='/images/favicon.svg' 
+                previewPath='/images/favicon.svg'
+                url='https://busukbangak.dev'
+            />
 
             <main className="flex flex-col lg:flex-row h-screen bg-[#0A0A0A] overflow-y-auto font-[Montserrat]">
                 {/* Left content section */}
