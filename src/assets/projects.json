@@ -1,15 +1,15 @@
 [
     {
         "title": "When Stars Align",
-        "subtitle": "Story-driven 3D open world platformer. Here setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
+        "subtitle": "Story-driven 3D open world platformer. Here I setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
         "tags": [
+            "Game",
             "Unity",
             "C#",
             "Desktop",
-            "Console",
             "Prototype"
         ],
-        "imagePath": "./images/wsa.preview.gif",
+        "imagePath": "/images/wsa.preview.gif",
         "link": "https://heartdrivengames.com/games/when-stars-align"
     },
     {
@@ -21,70 +21,69 @@
             "Mobile",
             "Gamification"
         ],
-        "imagePath": "./images/lessing.preview.gif",
+        "imagePath": "/images/lessing.preview.gif",
         "link": "https://lessing.schule/lessingyard/"
     },
     {
         "title": "Capybaradise",
         "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
         "tags": [
+            "Game",
             "Godot",
             "C#",
-            "Desktop",
-            "Mobile",
-            "Arcade"
+            "Mobile"
         ],
-        "imagePath": "./images/capy.preview.gif",
+        "imagePath": "/images/capy.preview.gif",
         "link": "https://heartdrivengames.com/games/capybaradise"
     },
     {
         "title": "When Stars Fall",
         "subtitle": "Rhythm Game with custom built touch sensitive controller. Here i was responsible for the audio design and implementation, part of the gameflow (e.g. spawning planets, showing endscore) and UI, as well as bugfixing.",
         "tags": [
+            "Game",
             "Unity",
             "C#",
             "Desktop",
-            "Rhythm",
-            "Arcade"
+            "Rhythm"
         ],
-        "imagePath": "./images/wsf.preview.gif",
+        "imagePath": "/images/wsf.preview.gif",
         "link": "https://heartdrivengames.com/games/when-stars-fall"
     },
     {
         "title": "DORIFTO",
         "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat! I developed the app by myself.",
         "tags": [
+            "Game",
             "Godot",
             "C#",
-            "Mobile",
-            "Arcade"
+            "Mobile"
         ],
-        "imagePath": "./images/dorifto.preview.gif",
+        "imagePath": "/images/dorifto.preview.gif",
         "link": "https://dorifto.netlify.app/"
     },
     {
         "title": "cat baguette",
         "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat. I developed the app by myself.",
         "tags": [
+            "Game",
             "Godot",
             "C#",
-            "Mobile",
-            "Arcade"
+            "Mobile"
         ],
-        "imagePath": "./images/catbaguette.preview.gif",
+        "imagePath": "/images/catbaguette.preview.gif",
         "link": "https://catbaguette.netlify.app/"
     },
     {
         "title": "2D-platformer",
         "subtitle": "A 2D Platformer controller, which can be used for any 2D Metroidvania type game. I developed the prototype by myself.",
         "tags": [
+            "Game",
             "Godot",
             "C#",
             "Desktop",
-            "Prototype",
-            "Adventure"
+            "Prototype"
         ],
-        "imagePath": "./images/2D-platformer.preview.gif",
+        "imagePath": "/images/2D-platformer.preview.gif",
         "link": "https://bitbucket.org/awanali/2d-platformer/src/master/"
     },
     {
@@ -94,36 +93,35 @@
             "Unity",
             "C#",
             "VR",
-            "Research",
-            "Simulation"
+            "Research"
         ],
-        "imagePath": "./images/ivr-hai.preview.gif",
+        "imagePath": "/images/ivr-hai.preview.gif",
         "link": "https://dl.acm.org/doi/10.1145/3670653.3670661"
     },
     {
         "title": "#onehundred",
-        "subtitle": "Overcome procedural generated islands with obstacles in 99 seconds. I developed the prototype by myself.",
+        "subtitle": "Overcome procedural generated islands with obstacles in #100 seconds. I developed the prototype by myself.",
         "tags": [
+            "Game",
             "Godot",
             "C#",
             "Mobile",
-            "Prototype",
-            "Action"
+            "Prototype"
         ],
-        "imagePath": "./images/ninetynine.preview.gif",
+        "imagePath": "/images/ninetynine.preview.gif",
         "link": "https://bitbucket.org/awanali/ninetynine/src/main/"
     },
     {
         "title": "SMOL ACADEMY",
         "subtitle": "A fast paced 3D Action RPG MOBA game for the browser. I developed the prototype by myself.",
         "tags": [
+            "Game",
             "Godot",
             "C#",
             "Web",
-            "Prototype",
-            "MOBA"
+            "Prototype"
         ],
-        "imagePath": "./images/smol-academy.preview.gif",
+        "imagePath": "/images/smol-academy.preview.gif",
         "link": "https://bitbucket.org/awanali/smol-academy/src/master/"
     }
 ]

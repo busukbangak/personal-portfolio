@@ -1,4 +1,4 @@
-import TagListItem from './TagListItem';
+import TagList from './TagList';
 import { useState } from 'react';
 
 type Props = {
@@ -24,8 +24,8 @@ export default function ProjectListItem({ title, subtitle, tags, imagePath, link
                     <p className='text-base lg:text-lg text-[#C0C0C0] m-0 leading-relaxed'>{subtitle}</p>
                     
                     {/* Tags */}
-                    <div className='flex flex-wrap gap-2 pt-2'>
-                        {tags.map((tag, index) => <TagListItem key={index} text={tag} />)}
+                    <div className='pt-2'>
+                        <TagList tags={tags} />
                     </div>
                 </div>
             </a>

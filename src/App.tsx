@@ -17,6 +17,7 @@ export default function App() {
           <Routes>
             {/* Portfolio */}
             <Route path='/' Component={Home} />
+            <Route path='/tags/:mode/:tags' Component={Home} />
             <Route path='/imprint' Component={Imprint} />
             <Route path='/privacy-policy' Component={PrivacyPolicy} />
 

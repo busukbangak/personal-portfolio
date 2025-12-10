@@ -1,11 +1,15 @@
 import { Link } from 'react-router-dom';
 
-import projectsJSON from '@/assets/projects.json'
-import ProjectListItem from './ProjectListItem';
+import ProjectList from './ProjectList';
+import TagFilter from './TagFilter';
 
 import SEO from '@/shared/components/SEO';
+import { Project } from '@/shared/types/types';
+import { useState } from 'react';
+
 
 export default function Home() {
+    const [filteredProjects, setFilteredProjects] = useState<Project[]>([]);
 
     return (
         <>
@@ -47,11 +51,13 @@ export default function Home() {
 
                 {/* Right projects section */}
                 <section className="flex-1 bg-[#0A0A0A] lg:flex flex-col hidden">
-                    {projectsJSON.map((item, index) => <ProjectListItem key={index} title={item.title} subtitle={item.subtitle} tags={item.tags} imagePath={item.imagePath} link={item.link} />)}
+                    <TagFilter onFilteredProjectsChange={setFilteredProjects} />
+                    <ProjectList projects={filteredProjects} />
                 </section>
 
                 <div className="lg:hidden">
-                    {projectsJSON.map((item, index) => <ProjectListItem key={index} title={item.title} subtitle={item.subtitle} tags={item.tags} imagePath={item.imagePath} link={item.link} />)}
+                    <TagFilter isMobile onFilteredProjectsChange={setFilteredProjects} />
+                    <ProjectList projects={filteredProjects} />
 
                     {/* Mobile footer links */}
                     <nav className="flex flex-row items-center justify-center gap-6 p-8 text-sm text-white/50">
