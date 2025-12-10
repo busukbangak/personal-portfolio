@@ -13,7 +13,7 @@ export default function Home() {
 
     return (
         <>
-            <SEO title='Wan Abdul Aliim Wanali' description='portfolio' iconPath='' previewPath='' />
+            <SEO title='Wan Abdul Aliim Wanali' description='portfolio' iconPath='/images/favicon.svg' previewPath='' />
 
             <main className="flex flex-col lg:flex-row h-screen bg-[#0A0A0A] overflow-y-auto font-[Montserrat]">
                 {/* Left content section */}
