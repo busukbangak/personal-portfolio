@@ -16,6 +16,11 @@ export default function SEO({ title, description, iconPath, previewPath, url }: 
         "@context": "https://schema.org",
         "@type": "Person",
         "name": "Wan Abdul Aliim Wanali",
+        "alternateName": [
+            "Aliim Wanali",
+            "Wan Abdul Aliim",
+            "Aliim Wan"
+        ],
         "url": "https://busukbangak.dev",
         "jobTitle": "HCI focused Developer",
         "description": "HCI-focused developer bridging technology and people",
@@ -41,7 +46,7 @@ export default function SEO({ title, description, iconPath, previewPath, url }: 
             <meta name="title" content={title} />
             <meta name="description" content={description} />
             <meta name="author" content="Wan Abdul Aliim Wanali" />
-            <meta name="keywords" content="portfolio, developer, HCI, human-computer interaction, web development, UX design" />
+            <meta name="keywords" content="Aliim Wanali, Wan Abdul Aliim Wanali, Wan Abdul Aliim, portfolio, HCI developer, human-computer interaction, web development, UX design, HAW Hamburg, Universität zu Lübeck" />
             
             {/* Structured Data */}
             <script type="application/ld+json">
