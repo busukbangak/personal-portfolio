@@ -9,7 +9,7 @@
             "Desktop",
             "Prototype"
         ],
-        "imagePath": "/images/wsa.preview.gif",
+        "imagePath": "/videos/wsa.preview.webm",
         "link": "https://heartdrivengames.com/games/when-stars-align"
     },
     {
@@ -21,7 +21,7 @@
             "Mobile",
             "Gamification"
         ],
-        "imagePath": "/images/lessing.preview.gif",
+        "imagePath": "/videos/lessing.preview.webm",
         "link": "https://lessing.schule/lessingyard/"
     },
     {
@@ -33,7 +33,7 @@
             "C#",
             "Mobile"
         ],
-        "imagePath": "/images/capy.preview.gif",
+        "imagePath": "/videos/capy.preview.webm",
         "link": "https://heartdrivengames.com/games/capybaradise"
     },
     {
@@ -45,7 +45,7 @@
             "C#",
             "Desktop"
         ],
-        "imagePath": "/images/wsf.preview.gif",
+        "imagePath": "/videos/wsf.preview.webm",
         "link": "https://heartdrivengames.com/games/when-stars-fall"
     },
     {
@@ -57,7 +57,7 @@
             "C#",
             "Mobile"
         ],
-        "imagePath": "/images/dorifto.preview.gif",
+        "imagePath": "/videos/dorifto.preview.webm",
         "link": "https://dorifto.netlify.app/"
     },
     {
@@ -69,7 +69,7 @@
             "C#",
             "Mobile"
         ],
-        "imagePath": "/images/catbaguette.preview.gif",
+        "imagePath": "/videos/catbaguette.preview.webm",
         "link": "https://catbaguette.netlify.app/"
     },
     {
@@ -82,7 +82,7 @@
             "Desktop",
             "Prototype"
         ],
-        "imagePath": "/images/2D-platformer.preview.gif",
+        "imagePath": "/videos/2D-platformer.preview.webm",
         "link": "https://bitbucket.org/awanali/2d-platformer/src/master/"
     },
     {
@@ -94,7 +94,7 @@
             "VR",
             "Research"
         ],
-        "imagePath": "/images/ivr-hai.preview.gif",
+        "imagePath": "/videos/ivr-hai.preview.webm",
         "link": "https://dl.acm.org/doi/10.1145/3670653.3670661"
     },
     {
@@ -107,7 +107,7 @@
             "Mobile",
             "Prototype"
         ],
-        "imagePath": "/images/ninetynine.preview.gif",
+        "imagePath": "/videos/ninetynine.preview.webm",
         "link": "https://bitbucket.org/awanali/ninetynine/src/main/"
     },
     {
@@ -120,7 +120,7 @@
             "Web",
             "Prototype"
         ],
-        "imagePath": "/images/smol-academy.preview.gif",
+        "imagePath": "/videos/smol-academy.preview.webm",
         "link": "https://bitbucket.org/awanali/smol-academy/src/master/"
     }
 ]
