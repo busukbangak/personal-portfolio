@@ -4,6 +4,6 @@ export type Project = {
     title: string;
     subtitle: string;
     tags: string[];
-    imagePath: string;
+    previewPath: string;
     link: string;
 };

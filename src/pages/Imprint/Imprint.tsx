@@ -8,8 +8,8 @@ export default function Imprint() {
             <SEO 
                 title='Imprint - Wan Abdul Aliim Wanali' 
                 description='Imprint and contact information for Wan Abdul Aliim Wanali.' 
-                iconPath='/images/favicon.svg' 
-                previewPath='/images/favicon.svg'
+                iconPath='/favicon.svg' 
+                previewPath='/favicon.svg'
                 url='https://busukbangak.dev/imprint'
             />
             <main className="flex flex-col min-h-screen bg-[#0A0A0A] font-[Montserrat]">

@@ -27,14 +27,14 @@ export default function TagFilter({ isMobile = false, onFilteredProjectsChange }
 
     // Calculate filtered projects
     const filteredProjects = useMemo(() => {
-        if (selectedTags.length === 0) return projectsJSON;
+        if (selectedTags.length === 0) return projectsJSON.projects;
         
         if (filterMode === 'AND') {
-            return projectsJSON.filter(project => 
+            return projectsJSON.projects.filter(project => 
                 selectedTags.every(selectedTag => project.tags.includes(selectedTag))
             );
         } else {
-            return projectsJSON.filter(project => 
+            return projectsJSON.projects.filter(project => 
                 selectedTags.some(selectedTag => project.tags.includes(selectedTag))
             );
         }
@@ -48,7 +48,7 @@ export default function TagFilter({ isMobile = false, onFilteredProjectsChange }
     // Get all unique tags from projects
     const allTags = useMemo(() => {
         const tagSet = new Set<string>();
-        projectsJSON.forEach(project => {
+        projectsJSON.projects.forEach(project => {
             project.tags.forEach(tag => tagSet.add(tag));
         });
         return Array.from(tagSet).sort();

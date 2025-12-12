@@ -6,11 +6,11 @@ type Props = {
     title: string;
     subtitle: string;
     tags: string[];
-    imagePath: string;
+    previewPath: string;
     link: string;
 }
 
-export default function ProjectListItem({ title, subtitle, tags, imagePath, link }: Props) {
+export default function ProjectListItem({ title, subtitle, tags, previewPath, link }: Props) {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
@@ -18,7 +18,7 @@ export default function ProjectListItem({ title, subtitle, tags, imagePath, link
             <a href={link} target='_blank' rel='noopener noreferrer' className="block" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                 {/* Project video */}
                 <div className={`w-full aspect-video rounded-lg overflow-hidden mb-4 transition-all ${isHovered ? 'brightness-110 scale-[1.01]' : ''}`}>
-                    <VideoPreview videoPath={imagePath} alt={title} />
+                    <VideoPreview videoPath={previewPath} alt={title} />
                 </div>
                 
                 {/* Project info */}

@@ -1,0 +1,60 @@
+# Decap CMS Configuration
+# This file defines how your CMS works
+
+# Backend: Where the content is stored
+backend:
+  name: github
+  repo: busukbangak/personal-portfolio # Your GitHub repo
+  branch: main # The branch to commit to
+
+# Local development: Remove this line before deploying to production
+#local_backend: true
+
+# Media files: Default location for uploads
+media_folder: "public/media" # Default folder
+public_folder: "/media" # Default public path
+
+# Collections: The types of content you can manage
+collections:
+  # Projects collection
+  - name: "projects"
+    label: "Projects"
+
+    files:
+      - label: "Projects"
+        name: "projects"
+        file: "src/assets/projects.json"
+        fields:
+          - label: "Projects"
+            label_singular: "Project"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Tags", name: "tags", widget: "list" }
+              - { label: "Link", name: "link", widget: "string" }
+              - label: "Preview File"
+                name: "previewPath"
+                widget: "file"
+                hint: "Upload a .webm video preview"
+                media_library:
+                  config:
+                    max_file_size: 10485760 # 10MB limit
+
+  # CV collection
+  - name: "cv"
+    label: "CV"
+    files:
+      - label: "CV"
+        name: "cv"
+        file: "src/assets/cv.json"
+        fields:
+          - label: "CV File"
+            name: "cvPath"
+            widget: "file"
+            hint: "Choose or upload your CV (PDF format recommended)"
+            media_library:
+              config:
+                max_file_size: 5242880 # 5MB limit
+                multiple: false

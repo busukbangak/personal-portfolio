@@ -24,7 +24,7 @@ export default function ProjectList({ projects }: Props) {
                     title={item.title} 
                     subtitle={item.subtitle} 
                     tags={item.tags} 
-                    imagePath={item.imagePath} 
+                    previewPath={item.previewPath} 
                     link={item.link} 
                 />
             ))}

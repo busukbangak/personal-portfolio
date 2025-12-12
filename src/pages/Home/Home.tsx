@@ -6,6 +6,7 @@ import TagFilter from './TagFilter';
 import SEO from '@/shared/components/SEO';
 import Footer from '@/shared/components/Footer';
 import { Project } from '@/shared/types/types';
+import cvJSON from '@/assets/cv.json';
 
 
 export default function Home() {
@@ -16,8 +17,8 @@ export default function Home() {
             <SEO 
                 title='Wan Abdul Aliim Wanali - HCI focused Developer' 
                 description='HCI-focused developer bridging technology and people. Designing human-centered applications for web, desktop, and mobile. Currently studying at HAW Hamburg and developing When Stars Align.' 
-                iconPath='/images/favicon.svg' 
-                previewPath='/images/favicon.svg'
+                iconPath='/favicon.svg' 
+                previewPath='/favicon.svg'
                 url='https://busukbangak.dev'
             />
 
@@ -44,7 +45,7 @@ export default function Home() {
                             <a href="mailto:aliim.wanali@gmail.com" className="inline-block bg-[#5B9FD7] hover:bg-[#4A8BC6] text-white font-semibold px-8 py-3 rounded-md transition-colors">
                                 Get in Touch
                             </a>
-                            <a href="/cv_wanali.pdf" target="_blank" rel="noopener noreferrer" className="inline-block bg-[#E85D75] hover:bg-[#D74C64] text-white font-semibold px-8 py-3 rounded-md transition-colors">
+                            <a href={cvJSON.cvPath} target="_blank" rel="noopener noreferrer" className="inline-block bg-[#E85D75] hover:bg-[#D74C64] text-white font-semibold px-8 py-3 rounded-md transition-colors">
                                 View CV
                             </a>
                         </div>

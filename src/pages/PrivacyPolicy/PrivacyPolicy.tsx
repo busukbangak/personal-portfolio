@@ -8,8 +8,8 @@ export default function PrivacyPolicy() {
             <SEO 
                 title='Privacy Policy - Wan Abdul Aliim Wanali' 
                 description='Privacy policy for busukbangak.dev. We do not collect any personal data.' 
-                iconPath='/images/favicon.svg' 
-                previewPath='/images/favicon.svg'
+                iconPath='/favicon.svg' 
+                previewPath='/favicon.svg'
                 url='https://busukbangak.dev/privacy-policy'
             />
             <main className="flex flex-col min-h-screen bg-[#0A0A0A] font-[Montserrat]">
