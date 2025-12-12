@@ -11,6 +11,7 @@ A modern, responsive portfolio website showcasing projects and skills.
 - **Sticky Navigation**: Left section stays fixed while content scrolls on desktop
 - **Project Showcase**: Filterable projects
 - **SEO Ready**: React Helmet integration for meta tags and social previews
+- **Content Management**: Decap CMS integration for easy content updates 
 
 ## Tech Stack
 - React 18.2.0 with TypeScript
@@ -18,6 +19,7 @@ A modern, responsive portfolio website showcasing projects and skills.
 - Vite 7.2.7 for fast development and building
 - React Router DOM 6 for navigation
 - React Helmet Async for SEO
+- Decap CMS for content management
 
 ## Development Notes
 - Layout based on my original design concept.
