@@ -32,13 +32,14 @@ collections:
             name: "projects"
             widget: "list"
             fields:
-              - { label: "Title", name: "title", widget: "string" }
-              - { label: "Subtitle", name: "subtitle", widget: "text" }
-              - { label: "Tags", name: "tags", widget: "list" }
-              - { label: "Link", name: "link", widget: "string" }
+              - { label: "Title", name: "title", widget: "string", required: true }
+              - { label: "Subtitle", name: "subtitle", widget: "text", required: true }
+              - { label: "Tags", name: "tags", widget: "list", required: true }
+              - { label: "Link", name: "link", widget: "string", required: true }
               - label: "Preview File"
                 name: "previewPath"
                 widget: "file"
+                required: true
                 hint: "Upload a .webm video preview"
                 media_library:
                   config:
@@ -55,6 +56,7 @@ collections:
           - label: "CV File"
             name: "cvPath"
             widget: "file"
+            required: true
             hint: "Choose or upload your CV (PDF format recommended)"
             media_library:
               config:

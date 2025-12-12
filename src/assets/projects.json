@@ -128,6 +128,9 @@
       "title": "Test",
       "subtitle": "wefwe",
       "link": "gwe",
+      "tags": [
+        "Game"
+      ],
       "previewPath": "/media/dorifto.preview.webm"
     }
   ]
