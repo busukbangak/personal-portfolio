@@ -6,6 +6,8 @@ backend:
   name: github
   repo: busukbangak/personal-portfolio # Your GitHub repo
   branch: main # The branch to commit to
+  base_url: https://busukbangak.dev # Replace with your actual Vercel domain
+  auth_endpoint: /api/auth
 
 # Local development: Remove this line before deploying to production
 #local_backend: true
