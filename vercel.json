@@ -1,12 +1,16 @@
 {
-  "rewrites": [
+  "redirects": [
     {
       "source": "/admin",
-      "destination": "/admin/index.html"
-    },
+      "destination": "/admin/"
+    }
+  ],
+  "rewrites": [
     {
-      "source": "/((?!admin).*)",
+      "source": "/((?!admin|api).*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
 }
