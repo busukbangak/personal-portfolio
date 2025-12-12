@@ -18,9 +18,9 @@ export default function ProjectList({ projects }: Props) {
 
     return (
         <>
-            {projects.map((item, index) => (
+            {projects.map((item) => (
                 <ProjectListItem 
-                    key={index} 
+                    key={item.previewPath} 
                     title={item.title} 
                     subtitle={item.subtitle} 
                     tags={item.tags} 
