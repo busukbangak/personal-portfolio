@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Type",
-          "value": "text/yaml"
+          "value": "text/yaml; charset=utf-8"
         }
       ]
     }
@@ -20,7 +20,7 @@
       "destination": "/admin/index.html"
     },
     {
-      "source": "/((?!admin/).*)",
+      "source": "/((?!api|admin).*)",
       "destination": "/index.html"
     }
   ]
