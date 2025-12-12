@@ -43,6 +43,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     // Return token in the format Decap CMS expects
+    const token = data.access_token;
     const responseHTML = `
       <!DOCTYPE html>
       <html>
@@ -55,7 +56,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
               function receiveMessage(e) {
                 console.log('receiveMessage', e);
                 window.opener.postMessage(
-                  'authorization:github:success:${JSON.stringify(data)}',
+                  'authorization:github:success:{"token":"${token}","provider":"github"}',
                   e.origin
                 );
                 window.removeEventListener('message', receiveMessage, false);
