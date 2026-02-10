@@ -40,7 +40,7 @@ collections:
                 name: "previewPath"
                 widget: "file"
                 required: true
-                hint: "Upload a .webm video preview"
+                hint: "Upload a preview file (videos: .webm, .mp4, .ogg | images: .webp, .jpg, .png, .gif)"
                 media_library:
                   config:
                     max_file_size: 10485760 # 10MB limit
