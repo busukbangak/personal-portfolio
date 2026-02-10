@@ -6,7 +6,7 @@ type Props = {
     className?: string;
 }
 
-export default function VideoPreview({ videoPath, alt, className = '' }: Props) {
+export default function MediaPreview({ videoPath, alt, className = '' }: Props) {
     const videoRef = useRef<HTMLVideoElement>(null);
     const [shouldLoad, setShouldLoad] = useState(false);
 

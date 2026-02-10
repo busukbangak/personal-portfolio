@@ -1,5 +1,5 @@
 import TagList from './TagList';
-import VideoPreview from '../../shared/components/VideoPreview';
+import MediaPreview from '../../shared/components/MediaPreview';
 import { useState } from 'react';
 
 type Props = {
@@ -18,7 +18,7 @@ export default function ProjectListItem({ title, subtitle, tags, previewPath, li
             <a href={link} target='_blank' rel='noopener noreferrer' className="block" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                 {/* Project video */}
                 <div className={`w-full aspect-video rounded-lg overflow-hidden mb-4 transition-all ${isHovered ? 'brightness-110 scale-[1.01]' : ''}`}>
-                    <VideoPreview videoPath={previewPath} alt={title} />
+                    <MediaPreview videoPath={previewPath} alt={title} />
                 </div>
                 
                 {/* Project info */}
