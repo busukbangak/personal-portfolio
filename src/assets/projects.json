@@ -134,6 +134,18 @@
       ],
       "previewPath": "/media/manv.preview.webm",
       "link": "https://busukbangak.dev/media/systemprsentationbachelor-projekt.mp4"
+    },
+    {
+      "title": "Rapid Mixed Reality Prototyping for Novel Interaction Devices: Evaluating a Transparent Handheld Display",
+      "subtitle": "Mithilfe von Mixed Prototyping untersuchen, welche Vorteile transparente Displays haben könnten gegenüber opaken. Ich war an der Konzeption und Mitentwicklung des Labyrinth-Minispiels beteiligt und habe am Verfassen des Research Papers mitgewirkt.",
+      "tags": [
+        "MR",
+        "XR",
+        "C#",
+        "Unity"
+      ],
+      "link": "https://www.researchgate.net/publication/373663967_Rapid_Mixed_Reality_Prototyping_for_Novel_Interaction_Devices_Evaluating_a_Transparent_Handheld_Display",
+      "previewPath": "/media/mr-prototyping.preview.webp"
     }
   ]
 }
