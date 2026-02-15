@@ -87,8 +87,8 @@
       "link": "https://busukbangak.itch.io/metroidvania-controller-prototype"
     },
     {
-      "title": "#onehundred",
-      "subtitle": "Overcome procedural generated islands with obstacles in #100 seconds. I developed the prototype by myself.",
+      "title": "onehundred",
+      "subtitle": "Overcome procedural generated islands with obstacles in 100 seconds. I developed the prototype by myself.",
       "tags": [
         "Mobile",
         "Game",
@@ -97,7 +97,7 @@
         "Prototype"
       ],
       "previewPath": "/media/ninetynine.preview.webm",
-      "link": "https://bitbucket.org/awanali/ninetynine/src/main/"
+      "link": "https://github.com/busukbangak/onehundred"
     },
     {
       "title": "SMOL ACADEMY",
