@@ -126,7 +126,7 @@
     },
     {
       "title": "Triage MANV",
-      "subtitle": "Digitale Unterstützung zur Sichtung bei einem Massenanfall von Verletzten via Google Glass und einer Smartwatch. Ich war hier für die Implementierung des Frontends für beide Geräte zuständig.",
+      "subtitle": "Digital support for triage in a mass-casualty incident using Google Glass and a smartwatch. I was responsible for implementing the frontend for both devices.",
       "tags": [
         "Mobile",
         "Java",
@@ -137,7 +137,7 @@
     },
     {
       "title": "Rapid Mixed Reality Prototyping for Novel Interaction Devices: Evaluating a Transparent Handheld Display",
-      "subtitle": "Mithilfe von Mixed Prototyping untersuchen, welche Vorteile transparente Displays haben könnten gegenüber opaken. Ich war an der Konzeption und Mitentwicklung des Labyrinth-Minispiels beteiligt und habe am Verfassen des Research Papers mitgewirkt.",
+      "subtitle": "Using mixed prototyping, the potential advantages of transparent displays over opaque ones were investigated. I contributed to the conceptual design and co-development of the labyrinth mini-game and also assisted in writing the research paper.",
       "tags": [
         "MR",
         "XR",
