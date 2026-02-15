@@ -177,6 +177,19 @@
         "WebAudioAPI",
         "Tailwind"
       ]
+    },
+    {
+      "title": "Café Riki",
+      "subtitle": "Game jam prototype where you play as Riki, a little chicken running a café among floating sky islands. I implemented the islands and their customers, treasure chests, recipes, audio design & integration, as well as the core resource system.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "link": "https://heartdrivengames.com/games/cafe-riki",
+      "previewPath": "/media/caferiki.preview.webm"
     }
   ]
 }
