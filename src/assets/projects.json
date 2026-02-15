@@ -154,10 +154,27 @@
         "React",
         "TypeScript",
         "Express",
-        "MongoDB"
+        "MongoDB",
+        "Tailwind"
       ],
       "previewPath": "/media/lumi-traces.preview.webm",
       "link": "https://lumi-traces.vercel.app/"
+    },
+    {
+      "title": "Tuner",
+      "link": "https://tuner-five.vercel.app/",
+      "previewPath": "/media/tuner.preview.webm",
+      "subtitle": "This is a generic tuner app that can tune guitars, ukuleles, and other instruments. I developed it as a PWA so it can be used offline to tune instruments anytime.",
+      "tags": [
+        "Web",
+        "React",
+        "TypeScript",
+        "PWA",
+        "shadcn",
+        "v0",
+        "WebAudioAPI",
+        "Tailwind"
+      ]
     }
   ]
 }
