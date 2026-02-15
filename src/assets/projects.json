@@ -74,8 +74,34 @@
       "link": "https://catbaguette.netlify.app/"
     },
     {
-      "title": "metroidvania-controller",
-      "subtitle": "A 2D Platformer controller, which can be used for any 2D Metroidvania type game. I developed the prototype by myself.",
+      "title": "Café Riki",
+      "subtitle": "Game jam prototype where you play as Riki, a little chicken running a café among floating sky islands. I implemented the islands and their customers, treasure chests, recipes, audio design & integration, as well as the core resource system.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "link": "https://heartdrivengames.com/games/cafe-riki",
+      "previewPath": "/media/caferiki.preview.webm"
+    },
+    {
+      "title": "The Last Stop",
+      "subtitle": "Game jam prototype where you play as Marie, who falls asleep on the bus and misses her stop. I implemented the player system, audio system, world-wrap system, gameplay logic, asset integration, and audio design.",
+      "tags": [
+        "Web",
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "link": "https://heartdrivengames.com/games/the-last-stop",
+      "previewPath": "/media/thelaststop.preview.webm"
+    },
+    {
+      "title": "Metroidvania Controller",
+      "subtitle": "A 2D Platformer controller, which can be used for a 2D Metroidvania type game. I developed the prototype by myself.",
       "tags": [
         "Web",
         "Game",
@@ -177,19 +203,6 @@
         "WebAudioAPI",
         "Tailwind"
       ]
-    },
-    {
-      "title": "Café Riki",
-      "subtitle": "Game jam prototype where you play as Riki, a little chicken running a café among floating sky islands. I implemented the islands and their customers, treasure chests, recipes, audio design & integration, as well as the core resource system.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Unity",
-        "C#",
-        "Prototype"
-      ],
-      "link": "https://heartdrivengames.com/games/cafe-riki",
-      "previewPath": "/media/caferiki.preview.webm"
     }
   ]
 }
