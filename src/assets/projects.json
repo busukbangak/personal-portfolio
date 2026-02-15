@@ -74,10 +74,10 @@
       "link": "https://catbaguette.netlify.app/"
     },
     {
-      "title": "2D-platformer",
+      "title": "metroidvania-prototype",
       "subtitle": "A 2D Platformer controller, which can be used for any 2D Metroidvania type game. I developed the prototype by myself.",
       "tags": [
-        "Desktop",
+        "Web",
         "Game",
         "Godot",
         "C#",
