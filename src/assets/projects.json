@@ -93,8 +93,7 @@
         "Unity",
         "C#",
         "VR",
-        "Research",
-        "XR"
+        "Research"
       ],
       "previewPath": "/media/ivr-hai.preview.webm",
       "link": "https://dl.acm.org/doi/10.1145/3670653.3670661"
@@ -140,13 +139,25 @@
       "subtitle": "Using mixed prototyping, the potential advantages of transparent displays over opaque ones were investigated. I contributed to the conceptual design and co-development of the labyrinth mini-game and also assisted in writing the research paper.",
       "tags": [
         "MR",
-        "XR",
         "C#",
         "Unity",
         "Research"
       ],
       "link": "https://www.researchgate.net/publication/373663967_Rapid_Mixed_Reality_Prototyping_for_Novel_Interaction_Devices_Evaluating_a_Transparent_Handheld_Display",
       "previewPath": "/media/mr-prototyping.preview.webp"
+    },
+    {
+      "title": "Lumi Traces",
+      "subtitle": "A full-stack application for managing and visualizing Lumi traces on an interactive map. I developed the entire system, including a RESTful CRUD API, backend media uploads, rate limiting, and map and reCAPTCHA integrations.",
+      "tags": [
+        "Web",
+        "React",
+        "TypeScript",
+        "Express",
+        "MongoDB"
+      ],
+      "previewPath": "/media/lumi-traces.preview.webm",
+      "link": "https://lumi-traces.vercel.app/"
     }
   ]
 }
