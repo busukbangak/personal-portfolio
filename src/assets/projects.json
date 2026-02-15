@@ -93,7 +93,8 @@
         "Unity",
         "C#",
         "VR",
-        "Research"
+        "Research",
+        "XR"
       ],
       "previewPath": "/media/ivr-hai.preview.webm",
       "link": "https://dl.acm.org/doi/10.1145/3670653.3670661"
@@ -122,6 +123,17 @@
       ],
       "previewPath": "/media/smol-academy.preview.webm",
       "link": "https://bitbucket.org/awanali/smol-academy/src/master/"
+    },
+    {
+      "title": "Triage MANV",
+      "subtitle": "Digitale Unterstützung zur Sichtung bei einem Massenanfall von Verletzten via Google Glass und einer Smartwatch. Ich war hier für die Implementierung des Frontends für beide Geräte zuständig.",
+      "tags": [
+        "Mobile",
+        "Java",
+        "Research"
+      ],
+      "previewPath": "/media/manv.preview.webm",
+      "link": "-"
     }
   ]
 }
