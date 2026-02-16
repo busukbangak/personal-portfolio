@@ -139,6 +139,17 @@
       "link": "https://busukbangak.itch.io/smol-academy"
     },
     {
+      "subtitle": "I worked as a full-time game development intern, where I implemented core gameplay mechanics and was independently responsible for a key gameplay section of Ruffy and the Riverside. I designed and balanced the attack patterns for multiple enemies and supported the team with custom scripts, sound, and animation integration.",
+      "title": "Ruffy and the Riverside",
+      "tags": [
+        "Game",
+        "Unity",
+        "C#"
+      ],
+      "link": "https://store.steampowered.com/app/1002260/Ruffy_and_the_Riverside/",
+      "previewPath": "/media/ruffy.preview.webm"
+    },
+    {
       "title": "IVR-HAI: Fetch in Virtual Reality",
       "subtitle": "Master Thesis: Social Presence in Immersive Virtual Reality Human-Animal Interaction. I developed the vr-app by myself.",
       "tags": [
