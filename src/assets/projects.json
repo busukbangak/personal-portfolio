@@ -203,6 +203,18 @@
         "WebAudioAPI",
         "Tailwind"
       ]
+    },
+    {
+      "title": "EMI Award",
+      "subtitle": "Development of a website for the EMI Award as part of my Bachelor’s thesis to improve the web presence and promote the event. I set up the entire project structure and was responsible for the design and implementation of the landing page and the project view, as well as the navigation bar (including localization) and the footer.",
+      "tags": [
+        "Web",
+        "Vue",
+        "JavaScript",
+        "Research"
+      ],
+      "link": "https://emi-award.netlify.app/home",
+      "previewPath": "/media/emiaward.preview.webp"
     }
   ]
 }
