@@ -238,7 +238,18 @@
         "TypeScript"
       ],
       "link": "https://dorifto.netlify.app/",
-      "previewPath": "/media/dorifto.preview.webp"
+      "previewPath": "/media/doriftoweb.preview.webp"
+    },
+    {
+      "title": "Cat Baguette Website",
+      "subtitle": "A website for my game Cat Baguette, which I designed and implemented.",
+      "tags": [
+        "Web",
+        "React",
+        "TypeScript"
+      ],
+      "link": "https://catbaguette.netlify.app/",
+      "previewPath": "/media/catbaguetteweb.preview.webp"
     }
   ]
 }
