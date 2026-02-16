@@ -228,6 +228,17 @@
       "subtitle": "I worked as a Frontend Developer on a desktop photo management application, where I developed and maintained the frontend, implemented new features such as an advanced search with face selection, improved UX/UI, fixed bugs, and integrated third-party cloud services like Dropbox and Google Drive. I also conducted end-to-end and unit tests to ensure high software quality.",
       "link": "https://excire.com/en/excire-foto/",
       "previewPath": "/media/excire.preview.webp"
+    },
+    {
+      "title": "DORIFTO Website",
+      "subtitle": "A website for my game DORIFTO, which I designed and implemented.",
+      "tags": [
+        "Web",
+        "React",
+        "TypeScript"
+      ],
+      "link": "https://dorifto.netlify.app/",
+      "previewPath": "/media/dorifto.preview.webp"
     }
   ]
 }
