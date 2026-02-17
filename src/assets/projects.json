@@ -261,6 +261,19 @@
       ],
       "link": "https://catbaguette.netlify.app/",
       "previewPath": "/media/catbaguetteweb.preview.webp"
+    },
+    {
+      "title": "Personal Portfolio",
+      "link": "https://busukbangak.dev/",
+      "tags": [
+        "Web",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "DecapCMS"
+      ],
+      "previewPath": "/media/portfolio.preview.webp",
+      "subtitle": "Development of a portfolio website for projects across multiple domains. Dynamic filtering via URL parameters allows direct access to specific project categories. Content is managed through Decap CMS."
     }
   ]
 }
