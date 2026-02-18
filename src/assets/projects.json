@@ -280,7 +280,8 @@
         "VR",
         "A-Frame",
         "JavaScript",
-        "Gamification"
+        "Gamification",
+        "Prototype"
       ],
       "link": "https://crmuseum.netlify.app/",
       "previewPath": "/media/crmuseum.preview.webm"
@@ -302,7 +303,8 @@
         "VR",
         "Vue",
         "A-Frame",
-        "JavaScript"
+        "JavaScript",
+        "Prototype"
       ],
       "link": "https://jil.sh/2021/04/online-open-data-hackathon-landmarks/",
       "subtitle": "Development of a WebVR prototype as part of an open data hackathon. Users explore Lübeck’s monuments in a 360° slideshow and receive information about monument preservation. I implemented the application entirely on my own, while UX/UI, text, and photos were provided by other team members.",
