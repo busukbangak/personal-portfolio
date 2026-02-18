@@ -274,6 +274,18 @@
       ],
       "previewPath": "/media/portfolio.preview.webp",
       "subtitle": "Development of a portfolio website for projects across multiple domains. Dynamic filtering via URL parameters allows direct access to specific project categories. Content is managed through Decap CMS."
+    },
+    {
+      "title": "Cross Reality Museum",
+      "subtitle": "Prototype of a gamified virtual museum tour in WebVR to learn about a prehistoric whale.\nThe experience is based on real exhibits from the Museum for Nature and Environment in Lübeck.\nI designed and implemented the complete user flow and movement system, and integrated all 3D models and audio assets.",
+      "tags": [
+        "Web",
+        "VR",
+        "A-Frame",
+        "JavaScript"
+      ],
+      "link": "https://crmuseum.netlify.app/",
+      "previewPath": "/media/crmuseum.preview.webm"
     }
   ]
 }
