@@ -90,7 +90,6 @@
       "title": "The Last Stop",
       "subtitle": "Game jam prototype where you play as Marie, who falls asleep on the bus and misses her stop. I implemented the player system, audio system, world-wrap system, gameplay logic, asset integration, and audio design.",
       "tags": [
-        "Web",
         "Game",
         "Unity",
         "C#",
@@ -103,7 +102,6 @@
       "title": "Metroidvania Controller",
       "subtitle": "A 2D Platformer controller, which can be used for a 2D Metroidvania type game. I developed the prototype by myself.",
       "tags": [
-        "Web",
         "Game",
         "Godot",
         "C#",
@@ -129,7 +127,6 @@
       "title": "SMOL ACADEMY",
       "subtitle": "A fast paced 3D Action RPG MOBA game for the browser. I developed the prototype by myself.",
       "tags": [
-        "Web",
         "Game",
         "Godot",
         "C#",
@@ -282,10 +279,11 @@
         "Web",
         "VR",
         "A-Frame",
-        "JavaScript"
+        "JavaScript",
+        "Gamification"
       ],
       "link": "https://crmuseum.netlify.app/",
-      "previewPath": "/media/crmuseum.preview.webm"
+      "previewPath": "/media/xmlparser.preview.webp"
     },
     {
       "title": "SKMMK Learning Diary",
@@ -305,10 +303,22 @@
         "Web",
         "Vue",
         "Vite",
-        ""
+        "TypeScript"
       ],
       "link": "https://apple-health-export-xml-parser.netlify.app/",
-      "previewPath": "/media/xmlparser.preview.png"
+      "previewPath": "/media/xmlparser.preview.webp"
+    },
+    {
+      "title": "Mental Arithmetic Task",
+      "tags": [
+        "Web",
+        "Vue",
+        "Vite",
+        "TypeScript"
+      ],
+      "subtitle": "Mathematical tasks designed for use in studies to induce stress. I developed the tool entirely on my own.",
+      "link": "https://mental-arithmetic-task.netlify.app/",
+      "previewPath": "/media/mental.preview.webp"
     }
   ]
 }
