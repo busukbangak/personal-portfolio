@@ -286,6 +286,17 @@
       ],
       "link": "https://crmuseum.netlify.app/",
       "previewPath": "/media/crmuseum.preview.webm"
+    },
+    {
+      "title": "SKMMK Learning Diary",
+      "subtitle": "Development of an interactive learning diary in the style of a library documentation for safety-critical human–machine cooperation. I developed the entire website independently.",
+      "link": "https://skmmk-lerntagebuch.netlify.app/",
+      "tags": [
+        "Web",
+        "Vue",
+        "VitePress"
+      ],
+      "previewPath": "/media/skmmk.preview.webp"
     }
   ]
 }
