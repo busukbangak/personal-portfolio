@@ -188,6 +188,7 @@
       "tags": [
         "Web",
         "React",
+        "Vite",
         "TypeScript",
         "Express",
         "MongoDB",
@@ -204,6 +205,7 @@
       "tags": [
         "Web",
         "React",
+        "Vite",
         "TypeScript",
         "PWA",
         "shadcn",
@@ -243,6 +245,7 @@
       "tags": [
         "Web",
         "React",
+        "Vite",
         "TypeScript"
       ],
       "link": "https://dorifto.netlify.app/",
@@ -254,6 +257,7 @@
       "tags": [
         "Web",
         "React",
+        "Vite",
         "TypeScript"
       ],
       "link": "https://catbaguette.netlify.app/",
@@ -265,6 +269,7 @@
       "tags": [
         "Web",
         "React",
+        "Vite",
         "TypeScript",
         "Tailwind",
         "DecapCMS"
