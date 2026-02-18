@@ -297,6 +297,18 @@
         "VitePress"
       ],
       "previewPath": "/media/skmmk.preview.webp"
+    },
+    {
+      "title": "Apple Health Export XML Parser",
+      "subtitle": "Extracts health data from Apple Health, such as data from an Apple Watch. I developed the tool entirely on my own.",
+      "tags": [
+        "Web",
+        "Vue",
+        "Vite",
+        ""
+      ],
+      "link": "https://apple-health-export-xml-parser.netlify.app/",
+      "previewPath": "/media/xmlparser.preview.png"
     }
   ]
 }
