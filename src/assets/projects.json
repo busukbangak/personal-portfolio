@@ -297,6 +297,19 @@
       "previewPath": "/media/skmmk.preview.webp"
     },
     {
+      "tags": [
+        "Web",
+        "VR",
+        "Vue",
+        "A-Frame",
+        "JavaScript"
+      ],
+      "link": "https://jil.sh/2021/04/online-open-data-hackathon-landmarks/",
+      "subtitle": "Development of a WebVR prototype as part of an open data hackathon. Users explore Lübeck’s monuments in a 360° slideshow and receive information about monument preservation. I implemented the application entirely on my own, while UX/UI, text, and photos were provided by other team members.",
+      "title": "Landmarks",
+      "previewPath": "/media/landmarks.preview.webm"
+    },
+    {
       "title": "Apple Health Export XML Parser",
       "subtitle": "Extracts health data from Apple Health, such as data from an Apple Watch. I developed the tool entirely on my own.",
       "tags": [
