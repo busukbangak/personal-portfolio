@@ -215,69 +215,6 @@
       ]
     },
     {
-      "title": "EMI Award",
-      "subtitle": "Development of a website for the EMI Award as part of my Bachelor’s thesis to improve the web presence and promote the event. I set up the entire project structure and was responsible for the design and implementation of the landing page and the project view, as well as the navigation bar (including localization) and the footer.",
-      "tags": [
-        "Web",
-        "Vue",
-        "JavaScript",
-        "Sass",
-        "Research"
-      ],
-      "link": "https://emi-award.netlify.app/home",
-      "previewPath": "/media/emiaward.preview.webp"
-    },
-    {
-      "title": "Excire Foto",
-      "tags": [
-        "Desktop",
-        "Angular",
-        "Electron",
-        "TypeScript"
-      ],
-      "subtitle": "I worked as a Frontend Developer on a desktop photo management application, where I developed and maintained the frontend, implemented new features such as an advanced search with face selection, improved UX/UI, fixed bugs, and integrated third-party cloud services like Dropbox and Google Drive. I also conducted end-to-end and unit tests to ensure high software quality.",
-      "link": "https://excire.com/en/excire-foto/",
-      "previewPath": "/media/excire.preview.webp"
-    },
-    {
-      "title": "DORIFTO Website",
-      "subtitle": "A website for my game DORIFTO, which I designed and implemented.",
-      "tags": [
-        "Web",
-        "React",
-        "Vite",
-        "TypeScript"
-      ],
-      "link": "https://dorifto.netlify.app/",
-      "previewPath": "/media/doriftoweb.preview.webp"
-    },
-    {
-      "title": "Cat Baguette Website",
-      "subtitle": "A website for my game Cat Baguette, which I designed and implemented.",
-      "tags": [
-        "Web",
-        "React",
-        "Vite",
-        "TypeScript"
-      ],
-      "link": "https://catbaguette.netlify.app/",
-      "previewPath": "/media/catbaguetteweb.preview.webp"
-    },
-    {
-      "title": "Personal Portfolio",
-      "link": "https://busukbangak.dev/",
-      "tags": [
-        "Web",
-        "React",
-        "Vite",
-        "TypeScript",
-        "Tailwind",
-        "DecapCMS"
-      ],
-      "previewPath": "/media/portfolio.preview.webp",
-      "subtitle": "Development of a portfolio website for projects across multiple domains. Dynamic filtering via URL parameters allows direct access to specific project categories. Content is managed through Decap CMS."
-    },
-    {
       "title": "Cross Reality Museum",
       "subtitle": "Prototype of a gamified virtual museum tour in WebVR to learn about a prehistoric whale.\nThe experience is based on real exhibits from the Museum for Nature and Environment in Lübeck.\nI designed and implemented the complete user flow and movement system, and integrated all 3D models and audio assets.",
       "tags": [
@@ -290,6 +227,29 @@
       ],
       "link": "https://crmuseum.netlify.app/",
       "previewPath": "/media/crmuseum.preview.webm"
+    },
+    {
+      "title": "Ports of the world",
+      "tags": [
+        "Web",
+        "Three.js",
+        "JavaScript"
+      ],
+      "subtitle": "Experimental project using three.js to parse a CSV file with port locations and visualize them on a 3D globe in the web browser. I built this independently as part of a university web development module.",
+      "link": "https://webtech-uebung.netlify.app/",
+      "previewPath": "/media/world.preview.webm"
+    },
+    {
+      "title": "Excire Foto",
+      "tags": [
+        "Desktop",
+        "Angular",
+        "Electron",
+        "TypeScript"
+      ],
+      "subtitle": "I worked as a Frontend Developer on a desktop photo management application, where I developed and maintained the frontend, implemented new features such as an advanced search with face selection, improved UX/UI, fixed bugs, and integrated third-party cloud services like Dropbox and Google Drive. I also conducted end-to-end and unit tests to ensure high software quality.",
+      "link": "https://excire.com/en/excire-foto/",
+      "previewPath": "/media/excire.preview.webp"
     },
     {
       "title": "SKMMK Learning Diary",
@@ -317,6 +277,31 @@
       "previewPath": "/media/landmarks.preview.webm"
     },
     {
+      "title": "DORIFTO Website",
+      "subtitle": "A website for my game DORIFTO, which I designed and implemented.",
+      "tags": [
+        "Web",
+        "React",
+        "Vite",
+        "TypeScript"
+      ],
+      "link": "https://dorifto.netlify.app/",
+      "previewPath": "/media/doriftoweb.preview.webp"
+    },
+    {
+      "title": "EMI Award",
+      "subtitle": "Development of a website for the EMI Award as part of my Bachelor’s thesis to improve the web presence and promote the event. I set up the entire project structure and was responsible for the design and implementation of the landing page and the project view, as well as the navigation bar (including localization) and the footer.",
+      "tags": [
+        "Web",
+        "Vue",
+        "JavaScript",
+        "Sass",
+        "Research"
+      ],
+      "link": "https://emi-award.netlify.app/home",
+      "previewPath": "/media/emiaward.preview.webp"
+    },
+    {
       "title": "Apple Health Export XML Parser",
       "subtitle": "Extracts health data from Apple Health, such as data from an Apple Watch. I developed the tool entirely on my own.",
       "tags": [
@@ -341,15 +326,30 @@
       "previewPath": "/media/mental.preview.webp"
     },
     {
-      "title": "Ports of the world",
+      "title": "Cat Baguette Website",
+      "subtitle": "A website for my game Cat Baguette, which I designed and implemented.",
       "tags": [
         "Web",
-        "Three.js",
-        "JavaScript"
+        "React",
+        "Vite",
+        "TypeScript"
       ],
-      "subtitle": "Experimental project using three.js to parse a CSV file with port locations and visualize them on a 3D globe in the web browser. I built this independently as part of a university web development module.",
-      "link": "https://webtech-uebung.netlify.app/",
-      "previewPath": "/media/world.preview.webm"
+      "link": "https://catbaguette.netlify.app/",
+      "previewPath": "/media/catbaguetteweb.preview.webp"
+    },
+    {
+      "title": "Personal Portfolio",
+      "link": "https://busukbangak.dev/",
+      "tags": [
+        "Web",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind",
+        "DecapCMS"
+      ],
+      "previewPath": "/media/portfolio.preview.webp",
+      "subtitle": "Development of a portfolio website for projects across multiple domains. Dynamic filtering via URL parameters allows direct access to specific project categories. Content is managed through Decap CMS."
     }
   ]
 }
