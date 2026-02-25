@@ -339,6 +339,17 @@
       "subtitle": "Mathematical tasks designed for use in studies to induce stress. I developed the tool entirely on my own.",
       "link": "https://mental-arithmetic-task.netlify.app/",
       "previewPath": "/media/mental.preview.webp"
+    },
+    {
+      "title": "Ports of the world",
+      "tags": [
+        "Web",
+        "Three.js",
+        "JavaScript"
+      ],
+      "subtitle": "Experimental project using three.js to parse a CSV file with port locations and visualize them on a 3D globe in the web browser. I built this independently as part of a university web development module.",
+      "link": "https://webtech-uebung.netlify.app/",
+      "previewPath": "/media/world.preview.webm"
     }
   ]
 }
