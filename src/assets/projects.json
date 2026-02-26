@@ -14,18 +14,6 @@
       "link": "https://heartdrivengames.com/games/when-stars-align"
     },
     {
-      "title": "Lessing Yard",
-      "subtitle": "Gamified learning platform for students and teachers. In this project, I set up the entire project and app structure on the frontend. I implemented the design and logic for the entire navigation flow (registered/unregistered), onboarding, avatar wardrobe, home screen, settings screen, badge system, ranking system, shop system, mini-games, QR code reader, map, as well as the integration of the backend, multiplayer (via Socket.io), localization, and state management (Redux).",
-      "tags": [
-        "Mobile",
-        "React Native",
-        "TypeScript",
-        "Gamification"
-      ],
-      "previewPath": "/media/lessing.preview.webm",
-      "link": "https://lessing.schule/lessingyard/"
-    },
-    {
       "title": "Capybaradise",
       "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
       "tags": [
@@ -196,6 +184,32 @@
       ],
       "previewPath": "/media/lumi-traces.preview.webm",
       "link": "https://lumi-traces.vercel.app/"
+    },
+    {
+      "title": "ECS Game Editor/Engine",
+      "subtitle": "An experimental project for exploring ECS architecture and playing around with Three.js. This monorepo contains a game editor and game engine I built from scratch as a learning exercise.",
+      "tags": [
+        "Desktop",
+        "Angular",
+        "Electron",
+        "TypeScript",
+        "Three.js"
+      ],
+      "link": "https://github.com/busukbangak/game-editor-monorepo",
+      "previewPath": "/media/dot.preview.webm"
+    },
+    {
+      "title": "Lessing Yard",
+      "subtitle": "Gamified learning platform for students and teachers. In this project, I set up the entire project and app structure on the frontend. I implemented the design and logic for the entire navigation flow (registered/unregistered), onboarding, avatar wardrobe, home screen, settings screen, badge system, ranking system, shop system, mini-games, QR code reader, map, as well as the integration of the backend, multiplayer (via Socket.io), localization, and state management (Redux).",
+      "tags": [
+        "Mobile",
+        "React Native",
+        "TypeScript",
+        "Socket.io",
+        "Gamification"
+      ],
+      "previewPath": "/media/lessing.preview.webm",
+      "link": "https://lessing.schule/lessingyard/"
     },
     {
       "title": "Tuner",
