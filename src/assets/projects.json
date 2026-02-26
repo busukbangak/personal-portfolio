@@ -187,7 +187,7 @@
     },
     {
       "title": "ECS Game Editor/Engine",
-      "subtitle": "An experimental project for exploring ECS architecture and playing around with Three.js. This monorepo contains a game editor and game engine I built from scratch as a learning exercise.",
+      "subtitle": "An experimental, evolving sandbox for exploring ECS architecture with Three.js. This monorepo contains a game editor and game engine I built from scratch as a long-term personal learning project.",
       "tags": [
         "Desktop",
         "Angular",
