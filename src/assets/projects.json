@@ -193,7 +193,8 @@
         "Angular",
         "Electron",
         "TypeScript",
-        "Three.js"
+        "Three.js",
+        "Sass"
       ],
       "link": "https://github.com/busukbangak/game-editor-monorepo",
       "previewPath": "/media/dot.preview.webm"
