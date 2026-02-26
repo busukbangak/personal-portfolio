@@ -135,6 +135,18 @@
       "previewPath": "/media/ruffy.preview.webm"
     },
     {
+      "title": "Audio-Based Pseudohaptics for Weight Perception in Augmented Reality",
+      "subtitle": "Master Thesis: How Auditory Cues Alter Pseudo-Haptic Perception of Object Weight in Augmented Reality. I developed the app myself.",
+      "tags": [
+        "Unity",
+        "C#",
+        "AR",
+        "Research"
+      ],
+      "link": "https://github.com/busukbangak/audio-haptics-ar",
+      "previewPath": "/media/arhptics.preview.webm"
+    },
+    {
       "title": "IVR-HAI: Fetch in Virtual Reality",
       "subtitle": "Master Thesis: Social Presence in Immersive Virtual Reality Human-Animal Interaction. I developed the vr-app by myself.",
       "tags": [
