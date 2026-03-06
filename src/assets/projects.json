@@ -1,140 +1,6 @@
 {
   "projects": [
     {
-      "title": "When Stars Align",
-      "subtitle": "Story-driven 3D open world platformer. Here I setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
-      "tags": [
-        "Desktop",
-        "Game",
-        "Unity",
-        "C#",
-        "Prototype"
-      ],
-      "previewPath": "/media/wsa.preview.webm",
-      "link": "https://heartdrivengames.com/games/when-stars-align"
-    },
-    {
-      "title": "Capybaradise",
-      "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Godot",
-        "C#"
-      ],
-      "previewPath": "/media/capy.preview.webm",
-      "link": "https://heartdrivengames.com/games/capybaradise"
-    },
-    {
-      "title": "When Stars Fall",
-      "subtitle": "Rhythm Game with custom built touch sensitive controller. Here i was responsible for the audio design and implementation, part of the gameflow (e.g. spawning planets, showing endscore) and UI, as well as bugfixing.",
-      "tags": [
-        "Desktop",
-        "Game",
-        "Unity",
-        "C#"
-      ],
-      "previewPath": "/media/wsf.preview.webm",
-      "link": "https://heartdrivengames.com/games/when-stars-fall"
-    },
-    {
-      "title": "DORIFTO",
-      "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat! I developed the app by myself.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Godot",
-        "C#"
-      ],
-      "previewPath": "/media/dorifto.preview.webm",
-      "link": "https://dorifto.netlify.app/"
-    },
-    {
-      "title": "cat baguette",
-      "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat. I developed the app by myself.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Godot",
-        "C#"
-      ],
-      "previewPath": "/media/catbaguette.preview.webm",
-      "link": "https://catbaguette.netlify.app/"
-    },
-    {
-      "title": "Café Riki",
-      "subtitle": "Game jam prototype where you play as Riki, a little chicken running a café among floating sky islands. I implemented the islands and their customers, treasure chests, recipes, audio design & integration, as well as the core resource system.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Unity",
-        "C#",
-        "Prototype"
-      ],
-      "link": "https://heartdrivengames.com/games/cafe-riki",
-      "previewPath": "/media/caferiki.preview.webm"
-    },
-    {
-      "title": "The Last Stop",
-      "subtitle": "Game jam prototype where you play as Marie, who falls asleep on the bus and misses her stop. I implemented the player system, audio system, world-wrap system, gameplay logic, asset integration, and audio design.",
-      "tags": [
-        "Game",
-        "Unity",
-        "C#",
-        "Prototype"
-      ],
-      "link": "https://heartdrivengames.com/games/the-last-stop",
-      "previewPath": "/media/thelaststop.preview.webm"
-    },
-    {
-      "title": "Metroidvania Controller",
-      "subtitle": "A 2D Platformer controller, which can be used for a 2D Metroidvania type game. I developed the prototype by myself.",
-      "tags": [
-        "Game",
-        "Godot",
-        "C#",
-        "Prototype"
-      ],
-      "previewPath": "/media/2D-platformer.preview.webm",
-      "link": "https://busukbangak.itch.io/metroidvania-controller-prototype"
-    },
-    {
-      "title": "onehundred",
-      "subtitle": "Overcome procedural generated islands with obstacles in 100 seconds. I developed the prototype by myself.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Godot",
-        "C#",
-        "Prototype"
-      ],
-      "previewPath": "/media/ninetynine.preview.webm",
-      "link": "https://github.com/busukbangak/onehundred"
-    },
-    {
-      "title": "SMOL ACADEMY",
-      "subtitle": "A fast paced 3D Action RPG MOBA game for the browser. I developed the prototype by myself.",
-      "tags": [
-        "Game",
-        "Godot",
-        "C#",
-        "Prototype"
-      ],
-      "previewPath": "/media/smol-academy.preview.webm",
-      "link": "https://busukbangak.itch.io/smol-academy"
-    },
-    {
-      "subtitle": "I worked as a full-time game development intern, where I implemented core gameplay mechanics and was independently responsible for a key gameplay section of Ruffy and the Riverside. I designed and balanced the attack patterns for multiple enemies and supported the team with custom scripts, sound, and animation integration.",
-      "title": "Ruffy and the Riverside",
-      "tags": [
-        "Game",
-        "Unity",
-        "C#"
-      ],
-      "link": "https://store.steampowered.com/app/1002260/Ruffy_and_the_Riverside/",
-      "previewPath": "/media/ruffy.preview.webm"
-    },
-    {
       "title": "Audio-Based Pseudohaptics for Weight Perception in Augmented Reality",
       "subtitle": "Master Thesis: How Auditory Cues Alter Pseudo-Haptic Perception of Object Weight in Augmented Reality. I developed the app myself.",
       "tags": [
@@ -363,6 +229,140 @@
       ],
       "link": "https://catbaguette.netlify.app/",
       "previewPath": "/media/catbaguetteweb.preview.webp"
+    },
+    {
+      "title": "When Stars Align",
+      "subtitle": "Story-driven 3D open world platformer. Here I setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
+      "tags": [
+        "Desktop",
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "previewPath": "/media/wsa.preview.webm",
+      "link": "https://heartdrivengames.com/games/when-stars-align"
+    },
+    {
+      "title": "Capybaradise",
+      "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Godot",
+        "C#"
+      ],
+      "previewPath": "/media/capy.preview.webm",
+      "link": "https://heartdrivengames.com/games/capybaradise"
+    },
+    {
+      "title": "When Stars Fall",
+      "subtitle": "Rhythm Game with custom built touch sensitive controller. Here i was responsible for the audio design and implementation, part of the gameflow (e.g. spawning planets, showing endscore) and UI, as well as bugfixing.",
+      "tags": [
+        "Desktop",
+        "Game",
+        "Unity",
+        "C#"
+      ],
+      "previewPath": "/media/wsf.preview.webm",
+      "link": "https://heartdrivengames.com/games/when-stars-fall"
+    },
+    {
+      "title": "DORIFTO",
+      "subtitle": "Drift down 高速山! Drift, Speed, Eurobeat! I developed the app by myself.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Godot",
+        "C#"
+      ],
+      "previewPath": "/media/dorifto.preview.webm",
+      "link": "https://dorifto.netlify.app/"
+    },
+    {
+      "title": "cat baguette",
+      "subtitle": "Aim your baguette and skillfully throw it to feed the hungry cat. I developed the app by myself.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Godot",
+        "C#"
+      ],
+      "previewPath": "/media/catbaguette.preview.webm",
+      "link": "https://catbaguette.netlify.app/"
+    },
+    {
+      "title": "Café Riki",
+      "subtitle": "Game jam prototype where you play as Riki, a little chicken running a café among floating sky islands. I implemented the islands and their customers, treasure chests, recipes, audio design & integration, as well as the core resource system.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "link": "https://heartdrivengames.com/games/cafe-riki",
+      "previewPath": "/media/caferiki.preview.webm"
+    },
+    {
+      "title": "The Last Stop",
+      "subtitle": "Game jam prototype where you play as Marie, who falls asleep on the bus and misses her stop. I implemented the player system, audio system, world-wrap system, gameplay logic, asset integration, and audio design.",
+      "tags": [
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "link": "https://heartdrivengames.com/games/the-last-stop",
+      "previewPath": "/media/thelaststop.preview.webm"
+    },
+    {
+      "title": "Metroidvania Controller",
+      "subtitle": "A 2D Platformer controller, which can be used for a 2D Metroidvania type game. I developed the prototype by myself.",
+      "tags": [
+        "Game",
+        "Godot",
+        "C#",
+        "Prototype"
+      ],
+      "previewPath": "/media/2D-platformer.preview.webm",
+      "link": "https://busukbangak.itch.io/metroidvania-controller-prototype"
+    },
+    {
+      "title": "onehundred",
+      "subtitle": "Overcome procedural generated islands with obstacles in 100 seconds. I developed the prototype by myself.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Godot",
+        "C#",
+        "Prototype"
+      ],
+      "previewPath": "/media/ninetynine.preview.webm",
+      "link": "https://github.com/busukbangak/onehundred"
+    },
+    {
+      "title": "SMOL ACADEMY",
+      "subtitle": "A fast paced 3D Action RPG MOBA game for the browser. I developed the prototype by myself.",
+      "tags": [
+        "Game",
+        "Godot",
+        "C#",
+        "Prototype"
+      ],
+      "previewPath": "/media/smol-academy.preview.webm",
+      "link": "https://busukbangak.itch.io/smol-academy"
+    },
+    {
+      "subtitle": "I worked as a full-time game development intern, where I implemented core gameplay mechanics and was independently responsible for a key gameplay section of Ruffy and the Riverside. I designed and balanced the attack patterns for multiple enemies and supported the team with custom scripts, sound, and animation integration.",
+      "title": "Ruffy and the Riverside",
+      "tags": [
+        "Game",
+        "Unity",
+        "C#"
+      ],
+      "link": "https://store.steampowered.com/app/1002260/Ruffy_and_the_Riverside/",
+      "previewPath": "/media/ruffy.preview.webm"
     },
     {
       "title": "Personal Portfolio",
