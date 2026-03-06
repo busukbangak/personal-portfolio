@@ -41,6 +41,20 @@
       "previewPath": "/media/excire.preview.webp"
     },
     {
+      "title": "ECS Game Editor/Engine",
+      "subtitle": "An experimental, evolving sandbox for exploring ECS architecture with Three.js. This monorepo contains a game editor and game engine I built from scratch as a long-term personal learning project.",
+      "tags": [
+        "Desktop",
+        "Angular",
+        "Electron",
+        "TypeScript",
+        "Three.js",
+        "Sass"
+      ],
+      "link": "https://github.com/busukbangak/game-editor-monorepo",
+      "previewPath": "/media/dot.preview.webm"
+    },
+    {
       "title": "Tuner",
       "link": "https://tuner-five.vercel.app/",
       "previewPath": "/media/tuner.preview.webm",
@@ -105,20 +119,6 @@
       "previewPath": "/media/catbaguetteweb.preview.webp"
     },
     {
-      "title": "ECS Game Editor/Engine",
-      "subtitle": "An experimental, evolving sandbox for exploring ECS architecture with Three.js. This monorepo contains a game editor and game engine I built from scratch as a long-term personal learning project.",
-      "tags": [
-        "Desktop",
-        "Angular",
-        "Electron",
-        "TypeScript",
-        "Three.js",
-        "Sass"
-      ],
-      "link": "https://github.com/busukbangak/game-editor-monorepo",
-      "previewPath": "/media/dot.preview.webm"
-    },
-    {
       "title": "DORIFTO Website",
       "subtitle": "A website for my game DORIFTO, which I designed and implemented.",
       "tags": [
@@ -129,6 +129,30 @@
       ],
       "link": "https://dorifto.netlify.app/",
       "previewPath": "/media/doriftoweb.preview.webp"
+    },
+    {
+      "title": "Apple Health Export XML Parser",
+      "subtitle": "Extracts health data from Apple Health, such as data from an Apple Watch. I developed the tool entirely on my own.",
+      "tags": [
+        "Web",
+        "Vue",
+        "Vite",
+        "TypeScript"
+      ],
+      "link": "https://apple-health-export-xml-parser.netlify.app/",
+      "previewPath": "/media/xmlparser.preview.webp"
+    },
+    {
+      "title": "Mental Arithmetic Task",
+      "tags": [
+        "Web",
+        "Vue",
+        "Vite",
+        "TypeScript"
+      ],
+      "subtitle": "Mathematical tasks designed for use in studies to induce stress. I developed the tool entirely on my own.",
+      "link": "https://mental-arithmetic-task.netlify.app/",
+      "previewPath": "/media/mental.preview.webp"
     },
     {
       "tags": [
@@ -157,67 +181,6 @@
       ],
       "link": "https://crmuseum.netlify.app/",
       "previewPath": "/media/crmuseum.preview.webm"
-    },
-    {
-      "title": "Apple Health Export XML Parser",
-      "subtitle": "Extracts health data from Apple Health, such as data from an Apple Watch. I developed the tool entirely on my own.",
-      "tags": [
-        "Web",
-        "Vue",
-        "Vite",
-        "TypeScript"
-      ],
-      "link": "https://apple-health-export-xml-parser.netlify.app/",
-      "previewPath": "/media/xmlparser.preview.webp"
-    },
-    {
-      "title": "Mental Arithmetic Task",
-      "tags": [
-        "Web",
-        "Vue",
-        "Vite",
-        "TypeScript"
-      ],
-      "subtitle": "Mathematical tasks designed for use in studies to induce stress. I developed the tool entirely on my own.",
-      "link": "https://mental-arithmetic-task.netlify.app/",
-      "previewPath": "/media/mental.preview.webp"
-    },
-    {
-      "title": "When Stars Align",
-      "subtitle": "Story-driven 3D open world platformer. Here I setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
-      "tags": [
-        "Desktop",
-        "Game",
-        "Unity",
-        "C#",
-        "Prototype"
-      ],
-      "previewPath": "/media/wsa.preview.webm",
-      "link": "https://heartdrivengames.com/games/when-stars-align"
-    },
-    {
-      "title": "Capybaradise",
-      "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
-      "tags": [
-        "Mobile",
-        "Game",
-        "Godot",
-        "C#"
-      ],
-      "previewPath": "/media/capy.preview.webm",
-      "link": "https://heartdrivengames.com/games/capybaradise"
-    },
-    {
-      "title": "When Stars Fall",
-      "subtitle": "Rhythm Game with custom built touch sensitive controller. Here i was responsible for the audio design and implementation, part of the gameflow (e.g. spawning planets, showing endscore) and UI, as well as bugfixing.",
-      "tags": [
-        "Desktop",
-        "Game",
-        "Unity",
-        "C#"
-      ],
-      "previewPath": "/media/wsf.preview.webm",
-      "link": "https://heartdrivengames.com/games/when-stars-fall"
     },
     {
       "title": "Audio-Based Pseudohaptics for Weight Perception in Augmented Reality",
@@ -257,6 +220,19 @@
       "previewPath": "/media/mr-prototyping.preview.webp"
     },
     {
+      "title": "When Stars Align",
+      "subtitle": "Story-driven 3D open world platformer. Here I setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
+      "tags": [
+        "Desktop",
+        "Game",
+        "Unity",
+        "C#",
+        "Prototype"
+      ],
+      "previewPath": "/media/wsa.preview.webm",
+      "link": "https://heartdrivengames.com/games/when-stars-align"
+    },
+    {
       "title": "Triage MANV",
       "subtitle": "Digital support for triage in a mass-casualty incident using Google Glass and a smartwatch. I was responsible for implementing the frontend for both devices.",
       "tags": [
@@ -266,6 +242,30 @@
       ],
       "previewPath": "/media/manv.preview.webm",
       "link": "https://busukbangak.dev/media/systemprsentationbachelor-projekt.mp4"
+    },
+    {
+      "title": "Capybaradise",
+      "subtitle": "Endless 3D-Stacking Game, where you stack as many capybaras as possible with the help of a friendly goose. Here I setup the entire project and implemented the gameplay stacking logic, flying mechanics, camera, UI, app flow, audio, score and online leaderboard.",
+      "tags": [
+        "Mobile",
+        "Game",
+        "Godot",
+        "C#"
+      ],
+      "previewPath": "/media/capy.preview.webm",
+      "link": "https://heartdrivengames.com/games/capybaradise"
+    },
+    {
+      "title": "When Stars Fall",
+      "subtitle": "Rhythm Game with custom built touch sensitive controller. Here i was responsible for the audio design and implementation, part of the gameflow (e.g. spawning planets, showing endscore) and UI, as well as bugfixing.",
+      "tags": [
+        "Desktop",
+        "Game",
+        "Unity",
+        "C#"
+      ],
+      "previewPath": "/media/wsf.preview.webm",
+      "link": "https://heartdrivengames.com/games/when-stars-fall"
     },
     {
       "title": "DORIFTO",
