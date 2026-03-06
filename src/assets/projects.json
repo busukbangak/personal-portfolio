@@ -220,6 +220,17 @@
       "previewPath": "/media/mr-prototyping.preview.webp"
     },
     {
+      "title": "Triage MANV",
+      "subtitle": "Digital support for triage in a mass-casualty incident using Google Glass and a smartwatch. I was responsible for implementing the frontend for both devices.",
+      "tags": [
+        "Mobile",
+        "Java",
+        "Research"
+      ],
+      "previewPath": "/media/manv.preview.webm",
+      "link": "https://busukbangak.dev/media/systemprsentationbachelor-projekt.mp4"
+    },
+    {
       "title": "When Stars Align",
       "subtitle": "Story-driven 3D open world platformer. Here I setup the entire project structure and implemented the whole gameplay logic including Player Controls, Companion Behavior, Input System, Event System, Interaction, Dialog, Localization, Day/Night, World Streaming, UI, Save/Load, Audio, NPC, Quests, Respawn.",
       "tags": [
@@ -231,17 +242,6 @@
       ],
       "previewPath": "/media/wsa.preview.webm",
       "link": "https://heartdrivengames.com/games/when-stars-align"
-    },
-    {
-      "title": "Triage MANV",
-      "subtitle": "Digital support for triage in a mass-casualty incident using Google Glass and a smartwatch. I was responsible for implementing the frontend for both devices.",
-      "tags": [
-        "Mobile",
-        "Java",
-        "Research"
-      ],
-      "previewPath": "/media/manv.preview.webm",
-      "link": "https://busukbangak.dev/media/systemprsentationbachelor-projekt.mp4"
     },
     {
       "title": "Capybaradise",
