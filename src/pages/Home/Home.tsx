@@ -37,7 +37,7 @@ export default function Home() {
                         <div className="space-y-4">
                             <h1 className="text-xl lg:text-2xl font-bold text-[#F5F5F5]">Moin! I'm Wan Abdul Aliim Wanali</h1>
                             <h2 className="text-base lg:text-lg text-[#C0C0C0] leading-relaxed max-w-2xl">
-                                I'm an HCI-focused developer who bridges the gap between technology and people. My interests span designing and building human-centered applications for web, desktop, and mobile platforms, as well as exploring scientific research within the field of human-computer interaction. I'm currently studying at HAW Hamburg and developing When Stars Align with the <a className="text-[#8A8A8A] no-underline cursor-pointer hover:text-[#B0B0B0]" href="https://www.instagram.com/heartdrivengames"> @heartdrivengames</a> team.
+                                I’m an HCI-focused software developer who bridges the gap between technology and people. My interests span designing and building human-centered applications for web, desktop, and mobile platforms, as well as exploring scientific research within the field of human-computer interaction. I am currently completing my Master’s degree in Time-Based Media at HAW Hamburg and am looking for job opportunities.
                             </h2>
                         </div>
 
